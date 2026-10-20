@@ -20,10 +20,10 @@ class AdminUserSeeder extends Seeder
         // Create super admin user and assign role
         $AdminUser = User::firstOrCreate([
             'name' => 'Super Admin',
-            'email' => 'info@smartaisoft.com',
+            'email' => 'Malikmisbah@mtzproducts.com',
             'user_type' => 'SuperAdmin',
             'role_id' => $AdminRole->id,
-            'password' => Hash::make('smartaisoft@321'),
+            'password' => Hash::make('malikmisbah@123'),
         ]);
         $AdminUser->assignRole($AdminRole);
 

@@ -6,39 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-    <meta name="author" content="SmartAI Soft">
+    <meta name="author" content="MEHR Website Design and Software Services">
     <meta name="theme-color" content="#ffffff">
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
     <meta name="color-scheme" content="light only">
 
-    <title>@yield('title', 'Dedicated Offshore AI & Software Development | SmartAI Soft')</title>
+    <title>@yield('title', 'Dedicated Offshore AI & Software Development | MEHR Website Design and Software Services')</title>
     <meta name="description"
-        content="@yield('description', 'Scale your engineering team with SmartAI Soft. We provide dedicated offshore AI, web, and mobile developers for startups and agencies in Malaysia, MEA, USA, and Canada.')">
+        content="@yield('description', 'Scale your engineering team with MEHR Website Design and Software Services. We provide dedicated offshore AI, web, and mobile developers for startups and agencies in Malaysia, MEA, USA, and Canada.')">
     <link rel="canonical" href="{{ url()->current() }}">
     <link rel="alternate" hreflang="en" href="{{ url('/') }}">
 
-    <meta property="og:title" content="@yield('title', 'Dedicated Offshore AI & Software Development | SmartAI Soft')">
+    <meta property="og:title" content="@yield('title', 'Dedicated Offshore AI & Software Development | MEHR Website Design and Software Services')">
     <meta property="og:description"
-        content="@yield('description', 'Scale your engineering team with SmartAI Soft. We provide dedicated offshore AI, web, and mobile developers for startups and agencies in Malaysia, MEA, USA, and Canada.')">
+        content="@yield('description', 'Scale your engineering team with MEHR Website Design and Software Services. We provide dedicated offshore AI, web, and mobile developers for startups and agencies in Malaysia, MEA, USA, and Canada.')">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:site_name" content="SmartAI Soft">
+    <meta property="og:site_name" content="MEHR Website Design and Software Services">
     <meta property="og:image" content="{{ asset('assets/images/others/logo-header.png') }}">
-    <meta property="og:image:alt" content="SmartAI Soft logo">
+    <meta property="og:image:alt" content="MEHR Website Design and Software Services logo">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="@yield('title', 'Dedicated Offshore AI & Software Development | SmartAI Soft')">
+    <meta name="twitter:title" content="@yield('title', 'Dedicated Offshore AI & Software Development | MEHR Website Design and Software Services')">
     <meta name="twitter:description"
-        content="@yield('description', 'Scale your engineering team with SmartAI Soft. We provide dedicated offshore AI, web, and mobile developers for startups and agencies in Malaysia, MEA, USA, and Canada.')">
+        content="@yield('description', 'Scale your engineering team with MEHR Website Design and Software Services. We provide dedicated offshore AI, web, and mobile developers for startups and agencies in Malaysia, MEA, USA, and Canada.')">
     <meta name="twitter:image" content="{{ asset('assets/images/others/logo-header.png') }}">
-    <meta name="twitter:image:alt" content="SmartAI Soft logo">
+    <meta name="twitter:image:alt" content="MEHR Website Design and Software Services logo">
 
     @verbatim
     <script type="application/ld+json">
-        {"@context":"https://schema.org","@type":"Organization","name":"SmartAI Soft","url":"{{ url('/') }}","logo":"{{ asset('assets/images/others/logo-header.png') }}","description":"Dedicated offshore AI, web, and mobile development partner for startups and agencies.","sameAs":["https://uk.linkedin.com/company/smartai-soft","https://www.upwork.com/agencies/1550198843122221056/","https://www.instagram.com/smartaisoft/"]}
+        {"@context":"https://schema.org","@type":"Organization","name":"MEHR Website Design and Software Services","url":"{{ url('/') }}","logo":"{{ asset('assets/images/others/logo-header.png') }}","description":"Dedicated offshore AI, web, and mobile development partner for startups and agencies.","sameAs":["https://uk.linkedin.com/company/smartai-soft","https://www.upwork.com/agencies/1550198843122221056/","https://www.instagram.com/smartaisoft/"]}
     </script>
     @endverbatim
 
@@ -121,9 +121,13 @@
         .typing-cursor,
         .cursor,
         .cursor1 {
-            color: #f43f5e;
+            color: #0086f6;
             margin-left: 2px;
             animation: blink 0.8s infinite;
+        }
+
+        #typing-text {
+            color: #0086f6 !important;
         }
 
         @@keyframes blink {
@@ -158,6 +162,168 @@
 
     <!-- 5. TAILWIND (Isme DEFER add kiya hai taaki page block na ho) -->
     <link rel="stylesheet" href="{{ asset('css/tailwind-prod.css') }}">
+    <style>
+        .brand-logo {
+            display: block;
+            filter: none !important;
+            mix-blend-mode: normal;
+        }
+
+        [class~="text-[#0086f6]"],
+        [class*="text-[#0086f6]/"],
+        [class~="hover:text-[#0086f6]"]:hover,
+        [class~="hover:text-[#007fcf]"]:hover,
+        [class*="text-blue-"],
+        [class*="text-sky-"],
+        [class*="text-indigo-"] {
+            color: #0086f6 !important;
+        }
+
+        [class~="text-[#002f7d]"],
+        [class~="hover:text-[#002f7d]"]:hover {
+            color: #002f7d !important;
+        }
+
+        [class~="text-[#007fcf]"],
+        [class~="hover:text-[#007fcf]"]:hover {
+            color: #007fcf !important;
+        }
+
+        [class~="bg-[#0086f6]"],
+        [class~="bg-[#007fcf]"],
+        [class~="hover:bg-[#0086f6]"]:hover,
+        [class~="hover:bg-[#007fcf]"]:hover,
+        [class*="bg-blue-500"],
+        [class*="bg-sky-500"] {
+            background-color: #0086f6 !important;
+        }
+
+        .group:hover [class~="group-hover:bg-[#0086f6]"] {
+            background-color: #0086f6 !important;
+        }
+
+        .group:hover [class~="group-hover:text-white"] {
+            color: #ffffff !important;
+        }
+
+        [class~="bg-[#0086f6]/10"],
+        [class~="hover:bg-[#0086f6]/10"]:hover {
+            background-color: rgb(0 134 246 / 0.1) !important;
+        }
+
+        [class~="bg-[#0086f6]/20"],
+        [class~="hover:bg-[#0086f6]/20"]:hover {
+            background-color: rgb(0 134 246 / 0.2) !important;
+        }
+
+        [class~="bg-[#0086f6]/30"] {
+            background-color: rgb(0 134 246 / 0.3) !important;
+        }
+
+        [class~="bg-[#0086f6]/40"] {
+            background-color: rgb(0 134 246 / 0.4) !important;
+        }
+
+        [class~="bg-[#0086f6]/50"] {
+            background-color: rgb(0 134 246 / 0.5) !important;
+        }
+
+        [class~="bg-[#0086f6]/5"] {
+            background-color: rgb(0 134 246 / 0.05) !important;
+        }
+
+        [class~="bg-blue-400/40"] {
+            background-color: rgb(0 134 246 / 0.16) !important;
+        }
+
+        [class*="bg-indigo-500/5"] {
+            background-color: rgb(0 134 246 / 0.05) !important;
+        }
+
+        [class~="bg-[#002f7d]"],
+        [class~="hover:bg-[#002f7d]"]:hover {
+            background-color: #002f7d !important;
+        }
+
+        [class~="bg-[#EBF5FF]"],
+        [class*="bg-blue-50"],
+        [class*="bg-sky-50"],
+        [class*="bg-indigo-50"] {
+            background-color: #ebf5ff !important;
+        }
+
+        [class~="bg-[#007fcf]/20"] {
+            background-color: rgb(0 127 207 / 0.2) !important;
+        }
+
+        [class*="bg-blue-100"],
+        [class*="bg-sky-100"],
+        [class*="bg-indigo-100"] {
+            background-color: #dbeafe !important;
+        }
+
+        [class~="border-[#0086f6]"],
+        [class*="border-blue-"],
+        [class*="border-sky-"],
+        [class*="border-indigo-"] {
+            border-color: #bfdbfe !important;
+        }
+
+        [class~="border-[#0086f6]"] {
+            border-color: #0086f6 !important;
+        }
+
+        [class~="border-[#BFDBFE]"] {
+            border-color: #bfdbfe !important;
+        }
+        [class~="hover:border-[#0086f6]"]:hover {
+            border-color: #0086f6 !important;
+        }
+
+        [class*="decoration-[#0086f6]"] {
+            text-decoration-color: #0086f6 !important;
+        }
+
+        [class*="ring-[#0086f6]"]:focus {
+            --tw-ring-color: #0086f6 !important;
+        }
+
+        [class*="from-blue-50"],
+        [class*="from-sky-50"],
+        [class*="from-indigo-50"] {
+            --tw-gradient-from: #ebf5ff var(--tw-gradient-from-position) !important;
+            --tw-gradient-to: rgb(235 245 255 / 0) var(--tw-gradient-to-position) !important;
+        }
+
+        [class*="bg-[radial-gradient"][class*="from-blue-50"] {
+            background-image: radial-gradient(ellipse at top right, #ebf5ff, transparent) !important;
+        }
+
+        [class*="from-[#0086f6]"] {
+            --tw-gradient-from: #0086f6 var(--tw-gradient-from-position) !important;
+            --tw-gradient-to: rgb(0 134 246 / 0) var(--tw-gradient-to-position) !important;
+        }
+
+        [class*="via-[#007fcf]"] {
+            --tw-gradient-via: #007fcf var(--tw-gradient-via-position) !important;
+        }
+
+        [class*="to-[#002f7d]"] {
+            --tw-gradient-to: #002f7d var(--tw-gradient-to-position) !important;
+        }
+
+        [class*="to-[#0086f6]"] {
+            --tw-gradient-to: #0086f6 var(--tw-gradient-to-position) !important;
+        }
+
+        [class*="bg-gradient-to-r"][class*="from-[#0086f6]"] {
+            background-image: linear-gradient(to right, #0086f6, #002f7d) !important;
+            -webkit-background-clip: text !important;
+            background-clip: text !important;
+            color: transparent !important;
+            -webkit-text-fill-color: transparent !important;
+        }
+    </style>
     <link rel="icon" type="image/png" href="{{ asset('assets/images/others/logo-header.png') }}">
 </head>
 
@@ -347,7 +513,7 @@
                 }
 
                 draw(opacity) {
-                    ctx.fillStyle = `rgba(244, 63, 94, ${opacity * globalAlpha})`;
+                    ctx.fillStyle = `rgba(0, 134, 246, ${opacity * globalAlpha})`;
                     ctx.beginPath();
                     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                     ctx.closePath();
@@ -430,7 +596,7 @@
 
             // FIX: Check if the element exists before doing anything else
             if (textElement) {
-                const phrases = ["Malaysia", "MEA", "USA", "Canada"];
+                const phrases = ["USA"];
                 let phraseIndex = 0;
                 let charIndex = 0;
                 let isDeleting = false;
@@ -475,7 +641,7 @@
 
         // FIX: Only proceed if the element 'text' actually exists
         if (text) {
-            const phrases = ["The Challenge", "Opportunity", "Innovation", "Mission"];
+            const phrases = ["Creative Design", "Smart Development", "Digital Excellence", "Business Growth"];
             let i = 0, j = 0, isDeleting = false;
 
             function type() {
@@ -502,7 +668,7 @@
 
             // FIX: Check if the element exists before running the animation
             if (textElement) {
-                const fullText = "Cost Efficiency Without Compromise";
+               const fullText = "Professional Websites. Powerful Digital Growth.";
                 let charIndex = 0;
                 let isDeleting = false;
                 const typingSpeed = 200;
@@ -574,9 +740,9 @@
     {
       "@context": "https://schema.org",
       "@type": "SoftwareCompany",
-      "name": "SmartAI Soft",
+      "name": "MEHR Website Design and Software Services",
       "url": "https://smartaisoft.com",
-      "logo": "{{ asset('assets/images/others/Asset_1@2x_1771949694638.png') }}",
+      "logo": "{{ asset('assets/images/Asset_1@2x_1771949694638.png') }}",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "PK",
@@ -627,8 +793,8 @@
     <!-- Optional CSS to color the active pagination dot with your Rose-600 color -->
     <style>
         .swiper-pagination-bullet-active {
-            background-color: #e11d48 !important;
-            /* Tailwind rose-600 */
+            background-color: #0086f6 !important;
+            /* Logo blue accent */
             width: 24px;
             border-radius: 8px;
             transition: all 0.3s;

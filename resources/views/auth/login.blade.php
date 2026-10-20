@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/others/Asset_1@2x_1771949694638.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/Asset_1@2x_1771949694638.png') }}">
 
     <!-- Page Title -->
-    <title>Login | SmartAI Soft</title>
+    <title>Login | MEHR Website Design and Software Services</title>
 
     <!-- Tailwind CSS & Fonts -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -27,11 +27,11 @@
             --background: #ffffff;
             --foreground: #020817;
             /* Deep Navy/Black */
-            --muted-foreground: #f43f5e;
+            --muted-foreground: #007fcf;
             /* Slate Gray */
             --border: #e2e8f0;
             /* Light Gray */
-            --primary: #f43f5e;
+            --primary: #0086f6;
             /* SmartAI Blue */
         }
 
@@ -59,7 +59,7 @@
         .input-tech:focus {
             border-color: var(--primary);
             outline: none;
-            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+            box-shadow: 0 0 0 4px rgba(0, 134, 246, 0.15);
         }
 
         /* Solid Primary Button */
@@ -71,9 +71,9 @@
         }
 
         .btn-primary-ui:hover {
-            background: #1e293b;
+            background: #002f7d;
             transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(2, 8, 23, 0.15);
+            box-shadow: 0 4px 12px rgba(0, 47, 125, 0.25);
         }
 
         /* Subtle Background Decoration */
@@ -98,10 +98,10 @@
 
 <body class="min-h-screen flex items-center justify-center p-6 bg-grid selection:bg-blue-100">
     <div
-        class="absolute top-0 right-0 w-[300px] h-[400px] lg:w-[700px] lg:h-[750px] bg-pink-400/40 blur-[120px] rounded-full pointer-events-none">
+        class="absolute top-0 right-0 w-[300px] h-[400px] lg:w-[700px] lg:h-[750px] bg-[#007fcf]/20 blur-[120px] rounded-full pointer-events-none">
     </div>
     <div
-        class="absolute bottom-0 left-0 w-[300px] h-[400px] lg:w-[700px] lg:h-[750px] bg-pink-400/40 blur-[120px] rounded-full pointer-events-none">
+        class="absolute bottom-0 left-0 w-[300px] h-[400px] lg:w-[700px] lg:h-[750px] bg-[#0086f6]/20 blur-[120px] rounded-full pointer-events-none">
     </div>
 
     <!-- The Canvas element -->
@@ -112,8 +112,8 @@
         <!-- Logo & Branding -->
         <div class="text-center mb-10">
             <a href="/">
-                <img src="{{ asset('assets/images/others/Asset_1@2x_1771949694638.png') }}"
-                    class="h-[180px] mx-auto mb-6" alt="SmartAI Soft Logo">
+                <img src="{{ asset('assets/images/Asset_1@2x_1771949694638.png') }}"
+                    class="h-[180px] w-auto object-contain mx-auto mb-6" alt="MEHR logo">
             </a>
             <h1 class="text-3xl font-extrabold tracking-tight text-[#020817]"> Login to Your Account</h1>
             <p class="text-[#64748b] mt-2 text-sm font-medium">Enter your credentials to access your dashboard</p>
@@ -183,7 +183,7 @@
                             <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}"></div>
 
                             @if ($errors->has('g-recaptcha-response'))
-                                <span class="text-[#f43f5e] text-sm">
+                                <span class="text-red-500 text-sm">
                                     {{ $errors->first('g-recaptcha-response') }}
                                 </span>
                             @endif
@@ -212,7 +212,7 @@
         <!-- Footer Link -->
         <div class="mt-8 text-center">
             <a href="{{ url('/') }}"
-                class="text-[#64748b] hover:text-[#020817] transition-all text-sm font-semibold inline-flex items-center gap-2 group">
+                class="text-[#64748b] hover:text-[#002f7d] transition-all text-sm font-semibold inline-flex items-center gap-2 group">
                 <i class="fas fa-arrow-left text-[10px] transition-transform group-hover:-translate-x-1"></i>
                 Back to Website
             </a>
@@ -295,8 +295,8 @@
             }
 
             draw(opacity) {
-                // Color changed to f43f5e (RGB: 244, 63, 94)
-                ctx.fillStyle = `rgba(244, 63, 94, ${opacity * globalAlpha})`;
+                // Color changed to #0086f6 (RGB: 0, 134, 246)
+                ctx.fillStyle = `rgba(0, 134, 246, ${opacity * globalAlpha})`;
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.closePath();

@@ -1,13 +1,12 @@
 @extends('Frontend.frontend-layout.app')
 
-@section('title', 'Terms of Service | SmartAI Soft')
-@section('description', 'Review SmartAI Soft’s terms of service for using our website, contacting our team, and engaging with our services.')
+@section('title', 'Terms of Service | MEHR Website Design and Software Services')
+@section('description', 'Review MEHR Website Design and Software Services’ terms of service for using our website, contacting our team, and engaging with our services.')
 @section('content')
     <div
       class="
         bg-white text-slate-500" style="font-family: 'Inter', sans-serif;">
-           <div  class="top-0 right-0 absolute bg-pink-400/40 blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none"
-       >
+           <div class="top-0 right-0 absolute bg-[#007fcf]/20 blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none">
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <header class="pt-32 pb-12 sm:pt-40 md:pt-48 md:pb-16 text-center" data-aos="fade-up">
@@ -15,7 +14,7 @@
                     class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-slate-950 tracking-tighter leading-[1.1] md:leading-none mb-4 px-2">
                     Terms of Service
                 </h1>
-                <div class="w-12 h-1 bg-[#f43f5e] mx-auto rounded-full opacity-20"></div>
+                <div class="w-12 h-1 bg-[#0086f6] mx-auto rounded-full opacity-50"></div>
             </header>
 
             <div class="max-w-6xl mx-auto pb-32 px-2" data-aos="fade-up" data-aos-delay="100">
@@ -24,11 +23,8 @@
                     <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-4">1. Acceptance of Terms
                     </h2>
                     <p class="text-lg leading-relaxed">
-                        These Terms of Service (this "Agreement") between SmartAI Soft ("we," "us," "our") and you govern
-                        your access and use of our web platform and website made available through <a
-                            href="https://www.smartaisoft.com" class="text-[#f43f5e] font-bold">www.smartaisoft.com</a>
-                        (this
-                        "Site") and the subscription services we provide (the "Services"). By using this Site and accessing
+                        These Terms of Service (this "Agreement") between MEHR Website Design and Software Services ("we," "us," "our") and you govern
+                        your access and use of our web platform and website made available and the subscription services we provide (the "Services"). By using this Site and accessing
                         our Services in any manner, you acknowledge that you have read, understood, and agree to be bound by
                         this Agreement. This Site is controlled and operated by us from our offices within the United
                         States, and we make no representation that materials in the Site are appropriate or available for
@@ -41,7 +37,7 @@
                     <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-4">2. Privacy Policy</h2>
                     <p class="text-lg leading-relaxed">
                         Our Privacy Policy, which can be found at <a href="{{ route('privacy.policy') }}"
-                            class="text-[#f43f5e] font-bold underline">Privacy Policy</a>, describes in exhaustive detail
+                            class="text-[#007fcf] hover:text-[#002f7d] font-bold underline transition-colors">Privacy Policy</a>, describes in exhaustive detail
                         how
                         we may use, store, and process your personal information. By continuing to use this Site, you accept
                         the Privacy Policy, which is incorporated herein by reference as a vital part of our agreement. If
@@ -58,14 +54,14 @@
                         Services to you during the term to which you have subscribed. You agree to provide accurate,
                         current, and complete information during the registration process and to maintain the security of
                         any password and identification provided. You accept sole responsibility for all activities that
-                        occur under your account, regardless of whether you authorized the activity. SmartAI Soft reserves
+                        occur under your account, regardless of whether you authorized the activity. MEHR Website Design and Software Services reserves
                         the right to modify, replace, or discontinue the Services at any time, for any reason, without prior
                         notice to you, though we strive for maximum uptime and reliability.
                     </p>
                     <ul class="space-y-3 list-none">
-                        <li class="pl-6 border-l-2 border-[#f43f5e] font-medium text-slate-700 italic">You must notify us
+                        <li class="pl-6 border-l-2 border-[#0086f6] font-medium text-slate-700 italic">You must notify us
                             immediately of any unauthorized use of your account or security breach.</li>
-                        <li class="pl-6 border-l-2 border-[#f43f5e] font-medium text-slate-700 italic">You are responsible
+                        <li class="pl-6 border-l-2 border-[#0086f6] font-medium text-slate-700 italic">You are responsible
                             for obtaining all telecommunications and computer equipment needed to access the Services.</li>
                     </ul>
                 </section>
@@ -93,7 +89,7 @@
                         our licensors retain ownership over Licensed Content, which may include stock photography, video, or
                         templates, and you may not sell, lease, or sub-license such content apart from the Deliverable. To
                         the extent we license content from third parties like Adobe Stock or Envato, you agree to comply
-                        with their respective license terms. SmartAI Soft will retain ownership over any content produced
+                        with                         their respective license terms. MEHR Website Design and Software Services will retain ownership over any content produced
                         using AI technologies unless otherwise specified in your specific service tier or contract.
                     </p>
                 </section>
@@ -107,7 +103,7 @@
                         suspension of Services, and any overdue charges will accrue interest at the rate of 1.5% per month
                         or the maximum rate permitted by law. We reserve the right to change our fees upon five days'
                         advance notice, and by continuing to use the Services, you accept these changes. All payments made
-                        to SmartAI Soft are non-cancelable and non-refundable, as we commit resources and engineering hours
+                        to MEHR Website Design and Software Services are non-cancelable and non-refundable, as we commit resources and engineering hours
                         immediately upon receipt of your subscription order.
                     </p>
                 </section>
@@ -116,7 +112,7 @@
                     <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-4">7. Confidential
                         Information</h2>
                     <p class="text-lg leading-relaxed">
-                        SmartAI Soft agrees to maintain the strict confidentiality of your non-public or proprietary
+                        MEHR Website Design and Software Services agrees to maintain the strict confidentiality of your non-public or proprietary
                         information, including business plans and product designs. You also agree to maintain the
                         confidentiality of our proprietary information and will not disclose it to any third party without
                         our express written consent. We will only limit access to your Confidential Information to those
@@ -129,12 +125,12 @@
                 <section class="mb-14">
                     <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-4">8. Publicity</h2>
                     <p class="text-lg leading-relaxed">
-                        Unless you provide us with a specific written notice to the contrary, you agree that SmartAI Soft
+                        Unless you provide us with a specific written notice to the contrary, you agree                         that MEHR Website Design and Software Services
                         may disclose that you are a customer of our services. We may use your name and logo in our digital
                         marketing materials, including our website, social media profiles, and case studies to highlight our
                         successful collaborations. This helps us showcase the diverse range of industries we serve and build
                         credibility with potential new partners. If you wish to opt-out of this publicity, please send a
-                        written request to <span class="font-bold text-slate-900">info@smartaisoft.com</span>, and we will
+                        written request to <span class="font-bold text-slate-900">Malikmisbah@mtzproducts.com</span>, and we will
                         remove your information from future marketing distributions.
                     </p>
                 </section>
@@ -144,7 +140,7 @@
                         Termination</h2>
                     <p class="text-lg leading-relaxed">
                         This Agreement will expire or terminate upon the expiration or termination of your account or
-                        subscription. SmartAI Soft may terminate your account at any time upon notice if you default or
+                        subscription. MEHR Website Design and Software Services may terminate your account at any time upon notice if you default or
                         breach any material terms of this Agreement, including non-payment. Upon termination, your right to
                         access the platform and any Deliverables not yet finalized will immediately cease. Certain sections
                         of this Agreement, including confidentiality obligations, liability waivers, and intellectual
@@ -158,7 +154,7 @@
                         Warranties</h2>
                     <p class="text-lg leading-relaxed uppercase font-bold text-slate-700 text-sm">
                         THE SERVICES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT ANY WARRANTIES OF ANY KIND,
-                        EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY LAW, SMARTAI SOFT DISCLAIMS ALL
+                        EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY LAW, MEHR WEBSITE DESIGN AND SOFTWARE SERVICES DISCLAIMS ALL
                         WARRANTIES, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
                         PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, TIMELY,
                         SECURE, OR ERROR-FREE, NOR DO WE MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE
@@ -170,12 +166,12 @@
                     <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-4">11. Liability Waiver
                     </h2>
                     <p class="text-lg leading-relaxed">
-                        SmartAI Soft will not be responsible for any lost profits, revenues, data, financial losses or
+                        MEHR Website Design and Software Services will not be responsible for any lost profits, revenues, data, financial losses or
                         indirect, special, consequential, or exemplary damages. Even if we have been advised of the
                         possibility of such damages, our total liability for any claims under these terms is limited to a
                         maximum of fifty dollars ($50.00). This waiver applies to any damages arising from your use or
                         inability to use our services, or any unauthorized access to our systems. This limitation of
-                        liability is a fundamental element of the basis of the bargain between SmartAI Soft and you, without
+                        liability is a fundamental element of the basis of the bargain                         between MEHR Website Design and Software Services and you, without
                         which the services would not be provided.
                     </p>
                 </section>
@@ -184,7 +180,7 @@
                     <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-4">12. Indemnification
                     </h2>
                     <p class="text-lg leading-relaxed">
-                        You agree to defend, indemnify, and hold SmartAI Soft and its affiliates, officers, and employees
+                        You agree to defend, indemnify, and hold MEHR Website Design and Software Services and its affiliates, officers, and employees
                         harmless from and against any third-party claims, liabilities, or damages arising out of your use of
                         the Services or breach of this Agreement. This includes any claims that your Customer Content
                         infringes upon the intellectual property rights of another party. You shall cooperate as required by
@@ -199,7 +195,7 @@
                         Third-Party Platforms</h2>
                     <p class="text-lg leading-relaxed">
                         Our Site and Services may contain links to other websites or social media platforms that are not
-                        owned or controlled by SmartAI Soft. We provide these links only as a convenience, and we do not
+                        owned or controlled by MEHR Website Design and Software Services. We provide these links only as a convenience, and we do not
                         endorse or control the privacy practices or content of these third-party sites. You agree that we
                         are not responsible for any damage or loss caused by your use of any third-party website, products,
                         or services. We encourage you to review the terms of service and privacy policies of any third-party
@@ -214,7 +210,7 @@
                         We respect the intellectual property rights of others and respond to notices of alleged copyright
                         infringement according to the Digital Millennium Copyright Act (DMCA). If you believe that your
                         copyrighted work has been infringed, please send a written notice to our designated agent at <span
-                            class="font-bold text-slate-950">info@smartaisoft.com</span>. Your notice must include a
+                            class="font-bold text-slate-950">Malikmisbah@mtzproducts.com</span>. Your notice must include a
                         description of the copyrighted work, the location of the infringing material on our site, and your
                         contact information. We take these reports seriously and will investigate and remove infringing
                         material as required by applicable law to maintain a compliant platform.
@@ -276,7 +272,7 @@
                 <section class="mb-14">
                     <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-4">19. Force Majeure</h2>
                     <p class="text-lg leading-relaxed">
-                        SmartAI Soft will not be liable for any failure to perform its obligations under this Agreement if
+                        MEHR Website Design and Software Services will not be liable for any failure to perform its obligations under this Agreement if
                         such failure is caused by an event beyond our reasonable control. This includes, but is not limited
                         to, acts of God, war, pandemic, government shutdown, lighting, flood, fire, or widespread
                         infrastructure failure. We will use commercially reasonable efforts to mitigate the effects of such
@@ -290,10 +286,10 @@
                     <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-4">20. Entire Agreement
                     </h2>
                     <p class="text-lg leading-relaxed">
-                        This Agreement constitutes the entire agreement between you and SmartAI Soft regarding your use of
+                        This Agreement constitutes the entire agreement                         between you and MEHR Website Design and Software Services regarding your use of
                         the platform and Services, superseding all prior communications and proposals. No modification or
                         amendment of this Agreement will be binding unless in writing and signed by an authorized
-                        representative of SmartAI Soft. You acknowledge that you have not relied on any representation or
+                        representative of MEHR Website Design and Software Services. You acknowledge that you have not relied on any representation or
                         warranty not expressly set forth in this Agreement. This ensures that the terms are clear, defined,
                         and centralized in this document for the benefit of both the company and the customer in any legal
                         or professional dispute.
@@ -311,15 +307,15 @@
                     <div class="max-w-3xl mx-auto">
                         <div class="group relative p-8 md:p-12 rounded-2xl bg-[#020817] border border-white/5 overflow-hidden transition-all
                                  duration-500 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-1">
-                            <div class="absolute top-0 right-0 w-32 h-32 bg-[#f43f5e]/10 blur-3xl rounded-full -mr-16 -mt-16 group-hover:bg-[#f43f5e]/20
+                            <div class="absolute top-0 right-0 w-32 h-32 bg-[#0086f6]/20 blur-3xl rounded-full -mr-16 -mt-16 group-hover:bg-[#007fcf]/30
                                      transition-colors">
                             </div>
                             <div class="relative z-10 flex flex-col items-center text-center">
                                 <h3 class="text-white text-xl md:text-2xl font-bold mb-4 italic tracking-tight opacity-70">
                                     Send an Inquiry</h3>
-                                <a href="mailto:info@smartaisoft.com" class="text-[#f43f5e] font-extrabold text-2xl md:text-4xl hover:text-white transition-all
+                                <a href="mailto:Malikmisbah@mtzproducts.com" class="text-[#0086f6] font-extrabold text-2xl md:text-4xl hover:text-[#007fcf] transition-all
                                       underline underline-offset-8 decoration-2">
-                                    info@smartaisoft.com
+                                    Malikmisbah@mtzproducts.com
                                 </a>
                             </div>
                         </div>

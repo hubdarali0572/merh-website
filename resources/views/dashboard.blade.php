@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <!-- SmartAI Soft Tech Styles -->
+  <!-- MEHR Tech Styles -->
   <style>
     .tech-card {
       background: #ffffff !important;
@@ -31,11 +31,11 @@
       align-items: center;
       justify-content: center;
       transition: all 0.3s ease;
-      color: #f43f5e;
+      color: #0086f6;
     }
 
     .tech-card:hover .icon-container {
-      background: #f43f5e;
+      background: #002f7d;
       color: #ffffff;
     }
 
@@ -59,9 +59,9 @@
   <div class="mb-4">
     <h4 class="text-3xl dashboard-title">
       Admin Overview <span class="text-slate-300 mx-2 font-light">|</span>
-      <span class="text-[#f43f5e]">{{ auth()->user()->name }}</span>
+      <span class="text-[#0086f6]">{{ auth()->user()->name }}</span>
     </h4>
-    <p class="section-label mt-1">Enterprise Management Portal</p>
+    <p class="section-label mt-1">MEHR Website Design and Software Services</p>
   </div>
 
   <div class="row mt-3">
@@ -74,9 +74,9 @@
             <div class="card-body d-flex justify-content-between align-items-center p-4">
               <div>
                 <h6 class="section-label mb-2">User</h6>
-                <h3 class="mb-0 font-bold text-[#f43f5e] display-6 tracking-tight">{{ $userTotal }}</h3>
+                <h3 class="mb-0 font-bold text-[#002f7d] display-6 tracking-tight">{{ $userTotal }}</h3>
               </div>
-              <div class="icon-container border border-slate-200 shadow-sm text-[#f43f5e]">
+              <div class="icon-container border border-slate-200 shadow-sm text-[#0086f6]">
                 <i class="fas fa-users-cog fa-xl"></i>
               </div>
             </div>
@@ -87,9 +87,9 @@
             <div class="card-body d-flex justify-content-between align-items-center p-4">
               <div>
                 <h6 class="section-label mb-2">Blogs</h6>
-                <h3 class="mb-0 font-bold text-[#f43f5e] display-6 tracking-tight">{{ $blogTotal }}</h3>
+                <h3 class="mb-0 font-bold text-[#002f7d] display-6 tracking-tight">{{ $blogTotal }}</h3>
               </div>
-              <div class="icon-container border border-slate-200 shadow-sm text-[#f43f5e]">
+              <div class="icon-container border border-slate-200 shadow-sm text-[#0086f6]">
                 <i class="fas fa-users-cog fa-xl"></i>
               </div>
             </div>
@@ -102,9 +102,9 @@
             <div class="card-body d-flex justify-content-between align-items-center p-4">
               <div>
                 <h6 class="section-label mb-2">Contact Request </h6>
-                <h3 class="mb-0 font-bold text-[#f43f5e] display-6 tracking-tight">{{ $contactStudent }}</h3>
+                <h3 class="mb-0 font-bold text-[#002f7d] display-6 tracking-tight">{{ $contactStudent }}</h3>
               </div>
-              <div class="icon-container border border-slate-200 shadow-sm">
+              <div class="icon-container border border-slate-200 shadow-sm text-[#0086f6]">
                 <i class="fa-solid fa-headset fa-xl"></i>
               </div>
             </div>

@@ -11,7 +11,7 @@ class SeoMetaTest extends TestCase
         $response = $this->get('/');
 
         $response->assertOk();
-        $response->assertSee('<title>Dedicated Offshore AI & Software Development | SmartAI Soft</title>', false);
+        $response->assertSee('<title>Dedicated Offshore AI & Software Development | MEHR Website Design and Software Services</title>', false);
         $response->assertSee('name="description"', false);
         $response->assertSee('rel="canonical"', false);
         $response->assertSee('name="robots"', false);

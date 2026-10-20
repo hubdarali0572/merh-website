@@ -75,44 +75,44 @@
         <div class="flex justify-between items-center">
             <div class="flex-shrink-0">
                 <a href="{{ url('/') }}" class="flex items-center gap-2 cursor-pointer">
-                    <img src="{{ asset('assets/images/others/logo-header.png') }}" alt="SmartAI Soft Logo"
-                        class="h-[100px] w-auto" width="180" height="60" loading="eager" decoding="async" fetchpriority="high" />
+                    <img src="{{ asset('assets/images/others/logo-header.png') }}" alt="MEHR logo"
+                        class="brand-logo h-[100px] w-auto object-contain" width="512" height="512" loading="eager" decoding="async" fetchpriority="high" />
                 </a>
             </div>
 
             <div class="hidden lg:flex items-center gap-8">
                 <a href="{{ route('services') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#f43f5e] {{ request()->routeIs('services') ? 'text-[#f43f5e]' : 'text-slate-600' }}">
-                    Services
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('services') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                    SERVICES
                 </a>
-                <a href="{{ route('project') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#f43f5e] {{ request()->routeIs('project') ? 'text-[#f43f5e]' : 'text-slate-600' }}">
-                    Projects
+                <a href="https://mtzproducts.com/" target="_blank" rel="noopener noreferrer"
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('project') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                    PROJECTS
                 </a>
                 <a href="{{ route('about') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#f43f5e] {{ request()->routeIs('about') ? 'text-[#f43f5e]' : 'text-slate-600' }}">
-                    About Us
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('about') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                    ABOUT US
                 </a>
 
-                <a href="{{ route('gallary') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#f43f5e] {{ request()->routeIs('gallary') ? 'text-[#f43f5e]' : 'text-slate-600' }}">
+                {{-- <a href="{{ route('gallary') }}"
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('gallary') ? 'text-[#0086f6]' : 'text-slate-600' }}">
                     Showcase
-                </a>
+                </a> --}}
                 <a href="{{ route('blogs') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#f43f5e]
-                     {{ request()->routeIs('blogs') || request()->routeIs('frontend.show') ? 'text-[#f43f5e]' : 'text-slate-600' }}">
-                    Blogs
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6]
+                     {{ request()->routeIs('blogs') || request()->routeIs('frontend.show') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                    BLOGS
                 </a>
                 <a href="{{ route('contact') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#f43f5e] {{ request()->routeIs('contact') ? 'text-[#f43f5e]' : 'text-slate-600' }}">
-                    Contact Us
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('contact') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                    CONTACT US
                 </a>
 
 
-                <div class="flex items-center gap-4 border-l border-border pl-6">
+                {{-- <div class="flex items-center gap-4 border-l border-border pl-6">
                     <a href="https://uk.linkedin.com/company/smartai-soft" target="_blank" rel="noopener noreferrer"
                         aria-label="Visit our LinkedIn profile"
-                        class="text-slate-500 hover:text-[#f43f5e] footer-transition">
+                        class="text-slate-500 hover:text-[#0086f6] footer-transition">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
@@ -123,15 +123,15 @@
                     </a>
                     <a href="https://www.upwork.com/agencies/1550198843122221056/" target="_blank" rel="noopener noreferrer"
                         aria-label="Visit our Upwork agency profile"
-                        class="text-slate-500 hover:text-[#f43f5e] footer-transition">
+                        class="text-slate-500 hover:text-[#0086f6] footer-transition">
                         <i class="fa-brands fa-upwork text-[22px]"></i>
                     </a>
-                </div>
+                </div> --}}
 
-                <a href="https://calendly.com/smartaisoft-info/30min" target="_blank" rel="noopener noreferrer"
+                {{-- <a href="https://calendly.com/smartaisoft-info/30min" target="_blank" rel="noopener noreferrer"
                     class="px-5 py-2.5 rounded-full text-sm font-semibold bg-foreground text-white hover:bg-[#020817]/90 nav-transition hover:-translate-y-0.5 hover:shadow-md inline-block text-center">
                     Book a Call
-                </a>
+                </a> --}}
             </div>
 
             <div class="lg:hidden flex items-center">
@@ -165,23 +165,23 @@
         class="hidden lg:hidden absolute top-full left-0 w-full bg-background border-b border-border shadow-lg">
         <div class="px-4 pt-2 pb-6 space-y-4 flex flex-col">
             <a href="{{ route('services') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">Services</a>
+                class="block px-3 py-2 text-base font-medium text-foreground">SERVICES</a>
 
-            <a href="{{ route('project') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">Projects</a>
-            <a href="{{ route('gallary') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">Showcase</a>
+            <a href="https://mtzproducts.com/" onclick="closeMobileMenu()"
+                class="block px-3 py-2 text-base font-medium text-foreground">PROJECTS</a>
+            {{-- <a href="{{ route('gallary') }}" onclick="closeMobileMenu()"
+                class="block px-3 py-2 text-base font-medium text-foreground">Showcase</a> --}}
             <a href="{{ route('about') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">about Us</a>
+                class="block px-3 py-2 text-base font-medium text-foreground">ABOUT US</a>
 
             <a href="{{ route('blogs') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">Blogs</a>
+                class="block px-3 py-2 text-base font-medium text-foreground">BLOGS</a>
 
             <a href="{{ route('contact') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">Contact Us</a>
-            <a href="https://calendly.com/app/routing/forms/user/me" target="_blank" class="px-5 py-2.5 rounded-full text-sm font-semibold
-                    bg-foreground text-white hover:bg-[#020817]/90 nav-transition hover:-translate-y-0.5 hover:shadow-md inline-block 
-                    text-center"> Book a Call </a>
+                class="block px-3 py-2 text-base font-medium text-foreground">CONTACT US</a>
+            {{-- <a href="https://calendly.com/app/routing/forms/user/me" target="_blank" class="px-5 py-2.5 rounded-full text-sm font-semibold
+                    bg-foreground text-white hover:bg-[#020817]/90 nav-transition hover:-translate-y-0.5 hover:shadow-md inline-block
+                    text-center"> Book a Call </a> --}}
         </div>
     </div>
 </nav>
@@ -250,11 +250,11 @@
                     const id = entry.target.getAttribute('id');
 
                     navLinks.forEach(link => {
-                        link.classList.remove('text-[#f43f5e]');
+                        link.classList.remove('text-[#0086f6]');
                         link.classList.add('text-slate-500');
 
                         if (link.getAttribute('data-section') === id) {
-                            link.classList.add('text-[#f43f5e]');
+                            link.classList.add('text-[#0086f6]');
                             link.classList.remove('text-slate-500');
                         }
                     });

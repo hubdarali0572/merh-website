@@ -3,8 +3,8 @@
   <div class="sidebar-header bg-white border-b border-[#DAD4C9]/5">
     <a href="{{url('dashboard')}}" class="sidebar-brand flex items-center justify-center w-full">
 
-      <img src="{{asset('assets/images/others/Asset_1@2x_1771949694638.png')}}"
-        class="h-[55px] w-auto object-contain filter drop-shadow-[0_0_10px_rgba(218,212,201,0.1)]" alt="logo">
+      <img src="{{asset('assets/images/Asset_1@2x_1771949694638.png')}}"
+        class="h-[55px] w-auto object-contain" alt="MEHR logo">
     </a>
     <div class="sidebar-toggler not-active">
       <span class="bg-[#DAD4C9]"></span>

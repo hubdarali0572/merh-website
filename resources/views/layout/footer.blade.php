@@ -35,7 +35,7 @@
         <p class="mb-0">
             &copy; {{ date('Y') }} 
             <a href="{{ url('/') }}" target="_blank" class="footer-brand-link">
-                SmartAI Soft
+                MEHR Website Design and Software Services
             </a>. All rights reserved.
         </p>
     </div>

@@ -1,7 +1,7 @@
 @extends('Frontend.frontend-layout.app')
 
-@section('title', 'SmartAI Soft Showcase | Team Photos & Office Highlights')
-@section('description', 'Browse SmartAI Soft showcase photos, office moments, and team highlights that reflect our culture and delivery environment.')
+@section('title', 'MEHR Website Design and Software Services Showcase | Team Photos & Office Highlights')
+@section('description', 'Browse MEHR Website Design and Software Services showcase photos, office moments, and team highlights that reflect our culture and delivery environment.')
 @section('content')
 
     <div class="bg-slate-50 overflow-hidden" style="font-family: 'Inter', sans-serif;">
@@ -10,10 +10,10 @@
         <section class="relative py-24 lg:py-36 bg-[#f8fafc] overflow-hidden border-b border-slate-100">
             <!-- Sophisticated Background Elements -->
             <div
-                class="top-0 right-0 absolute bg-pink-400/40 blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none">
+                class="top-0 right-0 absolute bg-blue-400/40 blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none">
             </div>
 
-            <div class="-z-10 absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-pink-50 via-transparent to-transparent"
+            <div class="-z-10 absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-50 via-transparent to-transparent"
                 data-aos="fade" data-aos-delay="500" data-aos-duration="3000"> </div>
             <div class="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
                 <div class="text-center">
@@ -22,8 +22,8 @@
                         data-aos="fade-down">
                         <span class="relative flex h-2 w-2">
                             <span
-                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-                            <span class="relative inline-flex rounded-full h-2 w-2 bg-rose-500"></span>
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#0086f6] opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-[#0086f6]"></span>
                         </span>
                         <span class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-600">The Visual
                             Archive</span>
@@ -33,7 +33,7 @@
                     <h1 class="text-4xl md:text-6xl lg:text-[72px] font-[900] text-slate-900 tracking-tight leading-[1.05] mb-8"
                         data-aos="fade-up" data-aos-delay="100">
                         The Art of Impact: <br />
-                        <span class="bg-gradient-to-r from-rose-600 via-rose-500 to-rose-500 bg-clip-text text-transparent">
+                        <span class="bg-gradient-to-r from-[#0086f6] via-[#007fcf] to-[#002f7d] bg-clip-text text-transparent">
                             Our Journey in Focus.
                         </span>
                     </h1>
@@ -57,7 +57,7 @@
                 <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-4">
                     <div class="max-w-3xl" data-aos="fade-right">
                         <span
-                            class="text-rose-600 font-black uppercase tracking-[0.3em] text-[11px] bg-rose-50 px-3 py-1 rounded-md">
+                            class="text-[#002f7d] font-black uppercase tracking-[0.3em] text-[11px] bg-[#EBF5FF] px-3 py-1 rounded-md">
                             Gallery
                         </span>
 
@@ -92,7 +92,7 @@
                             <img src="{{ asset('assets/images/others/WhatsApp Image 2026-06-29 at 4.59.05 PM (3).jpeg') }}"
                                 class="w-full h-full object-cover" alt="Team">
                             <div
-                                class="absolute inset-0 bg-rose-600/0 group-hover:bg-rose-600/20 transition-all duration-300">
+                                class="absolute inset-0 bg-[#0086f6]/0 group-hover:bg-[#0086f6]/20 transition-all duration-300">
                             </div>
                         </div>
                         <div class="group relative overflow-hidden rounded-3xl h-[240px]" data-aos="fade-left"
@@ -141,7 +141,7 @@
                             <img src="{{ asset('assets/images/others/mangoparty1.jpeg') }}"
                                 class="w-full h-full object-cover" alt="Team">
                             <div
-                                class="absolute inset-0 bg-rose-600/0 group-hover:bg-rose-600/20 transition-all duration-300">
+                                class="absolute inset-0 bg-[#0086f6]/0 group-hover:bg-[#0086f6]/20 transition-all duration-300">
                             </div>
                         </div>
                         <div class="group relative overflow-hidden rounded-3xl h-[240px]" data-aos="fade-left"
@@ -191,7 +191,7 @@
                             <img src="{{ asset('assets/images/others/WhatsApp Image 2026-06-29 at 4.55.54 PM.jpeg') }}"
                                 class="w-full h-full object-cover" alt="Team">
                             <div
-                                class="absolute inset-0 bg-rose-600/0 group-hover:bg-rose-600/20 transition-all duration-300">
+                                class="absolute inset-0 bg-[#0086f6]/0 group-hover:bg-[#0086f6]/20 transition-all duration-300">
                             </div>
                         </div>
                         <div class="group relative overflow-hidden rounded-3xl h-[240px]" data-aos="fade-left"
@@ -241,7 +241,7 @@
                             <img src="{{ asset('assets/images/others/WhatsApp Image 2026-06-29 at 5.24.22 PM.jpeg') }}"
                                 class="w-full h-full object-cover" alt="Team">
                             <div
-                                class="absolute inset-0 bg-rose-600/0 group-hover:bg-rose-600/20 transition-all duration-300">
+                                class="absolute inset-0 bg-[#0086f6]/0 group-hover:bg-[#0086f6]/20 transition-all duration-300">
                             </div>
                         </div>
                         <div class="group relative overflow-hidden rounded-3xl h-[240px]" data-aos="fade-left"
@@ -291,7 +291,7 @@
                             <img src="{{ asset('assets/images/others/images5673.jpeg') }}"
                                 class="w-full h-full object-cover" alt="Team">
                             <div
-                                class="absolute inset-0 bg-rose-600/0 group-hover:bg-rose-600/20 transition-all duration-300">
+                                class="absolute inset-0 bg-[#0086f6]/0 group-hover:bg-[#0086f6]/20 transition-all duration-300">
                             </div>
                         </div>
                         <div class="group relative overflow-hidden rounded-3xl h-[240px]" data-aos="fade-left"
@@ -328,7 +328,7 @@
         <!-- 2. VIDEO SHOWCASE: THE CINEMATIC EXPERIENCE -->
         <section class="py-24 px-6 bg-slate-950 relative overflow-hidden">
             <!-- Decorative Glows -->
-            <div class="absolute -top-24 -right-24 w-96 h-96 bg-rose-600/20 blur-[120px] rounded-full pointer-events-none">
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-[#0086f6]/20 blur-[120px] rounded-full pointer-events-none">
             </div>
             <div
                 class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-600/10 blur-[120px] rounded-full pointer-events-none">
@@ -377,7 +377,7 @@
                                 <button onclick="toggleVideo('sideVideo1', this)"
                                     class="absolute inset-0 flex items-center justify-center z-20">
                                     <div
-                                        class="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 group-hover:bg-rose-600 transition-all duration-300">
+                                        class="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 group-hover:bg-[#002f7d] transition-all duration-300">
                                         <svg class="w-4 h-4 text-white fill-current ml-0.5 play-icon" viewBox="0 0 24 24">
                                             <path d="M8 5v14l11-7z" />
                                         </svg>
@@ -406,7 +406,7 @@
                                 <button onclick="toggleVideo('sideVideo2', this)"
                                     class="absolute inset-0 flex items-center justify-center z-20">
                                     <div
-                                        class="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 group-hover:bg-rose-600 transition-all duration-300">
+                                        class="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 group-hover:bg-[#002f7d] transition-all duration-300">
                                         <svg class="w-4 h-4 text-white fill-current ml-0.5 play-icon" viewBox="0 0 24 24">
                                             <path d="M8 5v14l11-7z" />
                                         </svg>
@@ -417,7 +417,7 @@
                                 </button>
                             </div>
                             <div>
-                                <span class="text-rose-500 text-[9px] font-black uppercase tracking-widest">Team
+                                <span class="text-[#0086f6] text-[9px] font-black uppercase tracking-widest">Team
                                     Spirit</span>
                                 <h4 class="text-white font-bold text-lg leading-tight mt-1">Birthday Chronicles: Moments of
                                     Joy</h4>
@@ -435,7 +435,7 @@
                                 <button onclick="toggleVideo('sideVideo3', this)"
                                     class="absolute inset-0 flex items-center justify-center z-20">
                                     <div
-                                        class="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 group-hover:bg-rose-600 transition-all duration-300">
+                                        class="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 group-hover:bg-[#002f7d] transition-all duration-300">
                                         <svg class="w-4 h-4 text-white fill-current ml-0.5 play-icon" viewBox="0 0 24 24">
                                             <path d="M8 5v14l11-7z" />
                                         </svg>
@@ -449,7 +449,7 @@
                                 class="group relative flex items-center gap-5 p-3 rounded-3xl hover:bg-white/5 border border-transparent hover:border-white/10 transition-all duration-300">
                                 <!-- Video container code here... -->
                                 <div>
-                                    <span class="text-rose-500 text-[9px] font-black uppercase tracking-widest">Team
+                                    <span class="text-[#0086f6] text-[9px] font-black uppercase tracking-widest">Team
                                         Synergy</span>
                                     <h4 class="text-white font-bold text-lg leading-tight mt-1">Beyond the Boardroom: Annual
                                         Sports Meet</h4>

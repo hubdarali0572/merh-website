@@ -1,23 +1,23 @@
 @extends('Frontend.frontend-layout.app')
 
-@section('title', 'Projects & Case Studies | SmartAI Soft')
-@section('description', 'See how SmartAI Soft has delivered digital products and engineering support for startups, brands, and organizations across multiple regions.')
+@section('title', 'Projects & Case Studies | MEHR Website Design and Software Services')
+@section('description', 'See how MEHR Website Design and Software Services has delivered digital products and engineering support for startups, brands, and organizations across multiple regions.')
 @section('content')
 
   <div class="bg-slate-50 overflow-hidden" style="font-family: 'Inter', sans-serif;">
 
     <section class="bg-[#f8fafc] py-20 lg:py-32 font-['Inter'] border-b border-slate-100 relative overflow-hidden">
       <div
-        class="top-0 right-0 absolute bg-pink-400/40 blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none">
+        class="top-0 right-0 absolute bg-blue-400/40 blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none">
       </div>
 
       <div
-        class="-z-10 absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-pink-50 via-transparent to-transparent"
+        class="-z-10 absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-50 via-transparent to-transparent"
         data-aos="fade" data-aos-delay="500" data-aos-duration="3000"> </div>
 
       <div class="mx-auto max-w-7xl px-6 lg:px-8 text-center relative z-10 py-20 lg:py-0">
         <span
-          class="inline-flex items-center rounded-full px-4 py-1 text-[11px] font-extrabold tracking-[0.2em] text-rose-600 bg-rose-50 border border-rose-100 uppercase mb-8"
+          class="inline-flex items-center rounded-full px-4 py-1 text-[11px] font-extrabold tracking-[0.2em] text-[#002f7d] bg-[#EBF5FF] border border-[#BFDBFE] uppercase mb-8"
           data-aos="fade-up">
           Strategic Portfolio
         </span>
@@ -25,7 +25,7 @@
           class="text-[36px] md:text-5xl lg:text-[56px] font-[900] text-slate-900 tracking-tight leading-[1.1] mb-8 max-w-4xl mx-auto"
           data-aos="fade-up" data-aos-delay="100">
           Pioneering Digital Excellence for
-          <span class="block lg:inline bg-gradient-to-r from-rose-500 to-rose-600 bg-clip-text text-transparent">
+          <span class="block lg:inline bg-gradient-to-r from-[#0086f6] to-[#002f7d] bg-clip-text text-transparent">
             Federal Enterprises.
           </span>
         </h2>
@@ -38,7 +38,7 @@
 
         <div class="flex justify-center gap-8 mt-10" data-aos="fade-up" data-aos-delay="300">
           <div class="text-center">
-            <p class="text-2xl font-bold text-slate-900 group-hover:text-rose-600 transition-colors">50+</p>
+            <p class="text-2xl font-bold text-slate-900 group-hover:text-[#0086f6] transition-colors">50+</p>
             <p class="text-xs uppercase tracking-widest text-slate-400 font-bold">Gov Projects</p>
           </div>
           <div class="w-px h-10 bg-slate-200"></div>
@@ -57,7 +57,7 @@
 
     <section class="py-24 px-6 bg-slate-50 relative overflow-hidden">
       <div class="absolute top-0 left-0 w-full h-full pointer-events-none opacity-40">
-        <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-rose-200/30 blur-[120px] rounded-full"></div>
+        <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-blue-200/30 blur-[120px] rounded-full"></div>
         <div class="absolute bottom-[-10%] left-[-5%] w-[400px] h-[400px] bg-slate-200/50 blur-[100px] rounded-full">
         </div>
       </div>
@@ -65,13 +65,13 @@
       <div class="max-w-7xl mx-auto relative z-10">
         <div class="text-center mb-20" data-aos="fade-up">
           <span
-            class="inline-block py-1 px-4 rounded-full bg-rose-50 border border-rose-100 text-rose-600 font-bold text-[11px] tracking-[0.3em] uppercase mb-4">
+            class="inline-block py-1 px-4 rounded-full bg-[#EBF5FF] border border-[#BFDBFE] text-[#002f7d] font-bold text-[11px] tracking-[0.3em] uppercase mb-4">
             Our Projects
           </span>
 
           <h3 class="text-4xl md:text-5xl lg:text-6xl font-[900] text-slate-900 leading-tight">
             Transforming Visions into <br class="hidden md:block">
-            <span class="text-rose-600">Digital Masterpieces.</span>
+            <span class="text-[#0086f6]">Digital Masterpieces.</span>
           </h3>
 
           <p class="mt-6 text-slate-500 max-w-3xl mx-auto text-lg md:text-xl leading-relaxed font-medium">
@@ -80,9 +80,9 @@
           </p>
 
           <div class="flex justify-center items-center gap-3 mt-10">
-            <div class="h-1.5 w-12 bg-rose-600 rounded-full"></div>
-            <div class="h-1.5 w-1.5 bg-rose-400 rounded-full"></div>
-            <div class="h-1.5 w-1.5 bg-rose-200 rounded-full"></div>
+            <div class="h-1.5 w-12 bg-[#002f7d] rounded-full"></div>
+            <div class="h-1.5 w-1.5 bg-[#007fcf] rounded-full"></div>
+            <div class="h-1.5 w-1.5 bg-[#BFDBFE] rounded-full"></div>
           </div>
         </div>
 
@@ -136,7 +136,7 @@
             <!-- Slide 1 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[120px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/instivio-logo.png') }}" alt="Instivio"
@@ -152,7 +152,7 @@
             <!-- Slide 2 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[120px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/WhatsApp Image 2026-03-11 at 11.06.52 AM.jpeg') }}"
@@ -169,7 +169,7 @@
             <!-- Slide 3 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[250px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/logo-green-horizontal-e1764346506978.png') }}"
@@ -186,7 +186,7 @@
             <!-- Slide 4 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[100px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/anzway-logo.png') }}" alt="Anzway Academy"
@@ -203,7 +203,7 @@
             <!-- Slide 5 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[120px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/logo-two-heads.png') }}" alt="Mary Guiney Brand"
@@ -219,7 +219,7 @@
             <!-- Slide 6 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[250px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/sgbf.webp') }}" alt="Saudi Green Building Forum"
@@ -236,7 +236,7 @@
             <!-- Slide 7 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[100px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/274468827_110368844913244_7837471241620231703_n.jpg') }}"
@@ -253,7 +253,7 @@
             <!-- Slide 8 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[100px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/pmd-logo.png') }}" alt="Pak Mahi Dost"
@@ -269,7 +269,7 @@
             <!-- Slide 9 -->
             <div class="project-slide">
               <div
-                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-rose-500 hover:shadow-[0_30px_60px_-15px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
+                class="group bg-white border border-slate-100 p-5 rounded-xl hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.15)] hover:-translate-y-2 transition-all duration-500 h-full flex flex-col justify-between">
                 <div>
                   <div class="w-[140px] h-auto mb-2 p-4">
                     <img src="{{ asset('assets/website-images/logo.png') }}" alt="Orkans Management"
@@ -298,14 +298,14 @@
       </div>
     </section>
 
-    <section class="bg-[#f43f5e] py-24 px-6 overflow-hidden relative">
+    <section class="bg-[#002f7d] py-24 px-6 overflow-hidden relative">
       <div class="absolute inset-0 bg-black/5 pointer-events-none"></div>
 
       <div class="max-w-7xl mx-auto relative z-10">
         <div class="flex flex-col md:flex-row items-center gap-16">
 
           <div class="md:w-1/2" data-aos="fade-right">
-            <h2 class="text-sm font-extrabold text-rose-100 uppercase tracking-[0.2em] mb-2">
+            <h2 class="text-sm font-extrabold text-blue-100 uppercase tracking-[0.2em] mb-2">
               Next-Gen Mobility
             </h2>
 
@@ -313,7 +313,7 @@
               Innovative Mobile Applications
             </h3>
 
-            <p class="text-rose-50 text-lg mb-10 leading-relaxed opacity-90">
+            <p class="text-blue-50 text-lg mb-10 leading-relaxed opacity-90">
               We design and develop native and cross-platform mobile apps that provide citizens and employees with
               powerful tools on the go.
             </p>
@@ -327,7 +327,7 @@
                 <div>
                   <h5 class="text-white font-bold text-xl mb-1">Biometric Security</h5>
 
-                  <p class="text-rose-100/80 leading-relaxed">Industry-standard face and thumbprint authentication for
+                  <p class="text-blue-100/80 leading-relaxed">Industry-standard face and thumbprint authentication for
                     sensitive data protection.</p>
                 </div>
               </div>
@@ -338,7 +338,7 @@
                 </div>
                 <div>
                   <h5 class="text-white font-bold text-xl mb-1">Real-time Sync</h5>
-                  <p class="text-rose-100/80 leading-relaxed">Offline-first architecture ensuring data is always
+                  <p class="text-blue-100/80 leading-relaxed">Offline-first architecture ensuring data is always
                     available, even without connectivity.</p>
                 </div>
               </div>

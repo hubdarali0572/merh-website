@@ -44,7 +44,7 @@
 
     .dropdown-link-tech:hover {
         background: #f1f5f9 !important; 
-        color: #f43f5e !important; 
+        color: #0086f6 !important; 
     }
 
     .dropdown-link-tech i {
@@ -54,11 +54,10 @@
 
     /* Nav Avatar Styling */
     .nav-profile-img {
-        border: 2px solid #f1f5f9;
+        border: 2px solid #0086f6;
         padding: 2px;
         transition: all 0.3s ease;
         object-fit: cover;
-         border-color: #f43f5e;
     }
     
  
@@ -75,8 +74,8 @@
       <!-- USER PROFILE DROPDOWN -->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <div class="w-[40px] h-[40px] rounded-full bg-slate-2r00 flex items-center justify-center border-2 border-slate-50 nav-profile-img">
-              <i class="fas fa-user-tie text-[#DAD4C9] text-sm"></i>
+          <div class="w-[40px] h-[40px] rounded-full bg-slate-200 flex items-center justify-center border-2 border-slate-50 nav-profile-img">
+              <i class="fas fa-user-tie text-[#002f7d] text-sm"></i>
           </div>
         </a>
 
@@ -86,7 +85,7 @@
           <div class="user-info-section d-flex flex-column align-items-center px-4 py-1">
             <div class="mb-3">
               <div class="w-[100px] h-[100px]  flex items-center justify-center">
-                   <img class="w-[100px] h-auto" src="{{ asset('assets/images/others/Asset_1@2x_1771949694638.png') }}" alt="Logo">
+                   <img class="w-[100px] h-auto object-contain" src="{{ asset('assets/images/Asset_1@2x_1771949694638.png') }}" alt="MEHR logo">
               </div>
             </div>
             <div class="text-center">
@@ -105,8 +104,8 @@
             <form method="POST" action="{{ route('logout') }}" id="logout-form-top">
               @csrf
               <button type="submit" class="dropdown-link-tech w-full border-0 bg-transparent text-left border-t border-slate-100 mt-1">
-                <i class="fas fa-sign-out-alt text-rose-500"></i>
-                <span class="text-rose-500 font-bold">Sign Out</span>
+                <i class="fas fa-sign-out-alt text-[#007fcf]"></i>
+                <span class="text-[#002f7d] font-bold">Sign Out</span>
               </button>
             </form>
 

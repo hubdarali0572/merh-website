@@ -1,13 +1,13 @@
 @extends('Frontend.frontend-layout.app')
 
-@section('title', 'Privacy Policy | SmartAI Soft')
-@section('description', 'Read SmartAI Soft’s privacy policy covering how we collect, use, and protect personal information on our website.')
+@section('title', 'Privacy Policy | MEHR Website Design and Software Services')
+@section('description', 'Read MEHR Website Design and Software Services’ privacy policy covering how we collect, use, and protect personal information on our website.')
 @section('content')
 
   <div
     class="
       bg-white text-slate-500 py-10 md:py-0" style="font-family: 'Inter', sans-serif;">
-        <div  class="top-0 right-0 absolute bg-pink-400/40 blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none"
+        <div  class="top-0 right-0 absolute bg-blue-400/40 blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none"
        >
         </div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,7 +17,7 @@
           class="text-4xl md:text-7xl lg:text-8xl font-extrabold text-slate-950 tracking-tighter leading-none mb-4 px-2">
           Privacy Policy
         </h1>
-        <div class="w-16 h-1 bg-[#f43f5e] mx-auto rounded-full opacity-20"></div>
+        <div class="w-16 h-1 bg-[#0086f6] mx-auto rounded-full opacity-20"></div>
       </header>
 
       <div class="max-w-6xl mx-auto pb-32 px-2" data-aos="fade-up" data-aos-delay="100">
@@ -25,7 +25,7 @@
         <section class="mb-14">
           <h2 class="text-xl md:text-2xl font-extrabold text-slate-950 tracking-tight mb-6">1. Introduction</h2>
           <p class="text-lg md:text-xl leading-relaxed mb-6">
-            SmartAI Soft ("we," "us," "our," "SmartAI Soft") is deeply committed to protecting your privacy and the
+            MEHR Website Design and Software Services ("we," "us," "our") is deeply committed to protecting your privacy and the
             personal information that you provide to us when accessing or using our services, products, or this website
             (the "Site"). We believe in total transparency regarding how we gather, store, and utilize the information
             that we collect during your visit to this Site or through our various service channels. This Privacy Policy
@@ -69,7 +69,7 @@
           <div class="space-y-8 mt-8">
             <div>
               <h3
-                class="text-xl font-bold text-slate-950 mb-3 underline decoration-[#f43f5e] decoration-2 underline-offset-4">
+                class="text-xl font-bold text-slate-950 mb-3 underline decoration-[#0086f6] decoration-2 underline-offset-4">
                 Account Registration</h3>
               <p class="leading-relaxed">The registration process requires that you provide your name, email address,
                 address, phone number, company affiliation, and tax information where applicable. This information is
@@ -80,7 +80,7 @@
 
             <div>
               <h3
-                class="text-xl font-bold text-slate-950 mb-3 underline decoration-[#f43f5e] decoration-2 underline-offset-4">
+                class="text-xl font-bold text-slate-950 mb-3 underline decoration-[#0086f6] decoration-2 underline-offset-4">
                 Log Data & Usage Metrics</h3>
               <p class="leading-relaxed">When you interact with our Site, we automatically collect network and connection
                 information, including your Internet Service Provider (ISP) and Internet Protocol (IP) addresses. We also
@@ -91,7 +91,7 @@
           </div>
 
           <div class="mt-12 p-8 bg-slate-50 rounded-xl border border-slate-100 italic">
-            <p class="mb-0"><strong class="text-[#f43f5e]">Sensitive Data Warning:</strong> We explicitly ask that you do
+            <p class="mb-0"><strong class="text-[#002f7d]">Sensitive Data Warning:</strong> We explicitly ask that you do
               not send us, and you do not disclose, any sensitive Personal Data on or through this Site. This includes
               information related to social security numbers, racial or ethnic origin, political opinions, religion or
               other beliefs, health, biometrics or genetic characteristics, criminal background, or trade union
@@ -113,13 +113,13 @@
 
           <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <li class="p-6 bg-slate-50 rounded-xl border border-slate-100">
-              <span class="block font-bold text-[#f43f5e] mb-2 tracking-tight uppercase text-xs">Service Delivery</span>
+              <span class="block font-bold text-[#002f7d] mb-2 tracking-tight uppercase text-xs">Service Delivery</span>
               We process data to fulfill orders, maintain site security, and correct technical problems. This allows our
               employees, agents, and contractors to operate the Site effectively and ensure your account remains in good
               standing.
             </li>
             <li class="p-6 bg-slate-50 rounded-xl border border-slate-100">
-              <span class="block font-bold text-[#f43f5e] mb-2 tracking-tight uppercase text-xs">Marketing & Comms</span>
+              <span class="block font-bold text-[#002f7d] mb-2 tracking-tight uppercase text-xs">Marketing & Comms</span>
               From time to time, we may use your data to inform you of products, programs, and promotions that we believe
               may be of interest to you. You maintain the right to opt-out of these electronic marketing messages at any
               time.
@@ -158,7 +158,7 @@
           </p>
           <p class="mt-6 font-medium">If you have reason to believe that your interaction with us is no longer secure (for
             example, if you feel that the security of your account has been compromised), please notify us immediately at:
-            <a href="mailto:info@smartaisoft.com" class="font-bold text-[#f43f5e] underline">info@smartaisoft.com</a>.
+            <a href="mailto:Malikmisbah@mtzproducts.com" class="font-bold text-[#007fcf] underline">Malikmisbah@mtzproducts.com</a>.
           </p>
         </section>
 
@@ -185,15 +185,15 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div
                 class="group relative p-8 rounded-2xl bg-[#020817] border border-white/5 overflow-hidden transition-all duration-500 hover:shadow-2xl
-                 hover:shadow-[#f43f5e]/10 hover:-translate-y-1 md:col-span-2" data-aos="fade-up" data-aos-delay="100">
+                 hover:shadow-[#0086f6]/10 hover:-translate-y-1 md:col-span-2" data-aos="fade-up" data-aos-delay="100">
                 <div
-                  class="absolute top-0 right-0 w-32 h-32 bg-[#f43f5e]/10 blur-3xl rounded-full -mr-16 -mt-16 group-hover:bg-[#f43f5e]/20 transition-colors">
+                  class="absolute top-0 right-0 w-32 h-32 bg-[#0086f6]/10 blur-3xl rounded-full -mr-16 -mt-16 group-hover:bg-[#0086f6]/20 transition-colors">
                 </div>
 
                 <div class="relative z-10 flex flex-col h-full justify-between">
                   <div>
                     <div class="w-10 h-10 rounded-xl bg-white flex items-center justify-center mb-6">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#f43f5e]" fill="none"
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#0086f6]" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                           d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -205,9 +205,9 @@
                   </div>
 
                   <div class="mt-10">
-                    <a href="mailto:info@smartaisoft.com"
-                      class="inline-flex items-center gap-2 text-[#f43f5e] font-bold text-lg hover:text-white transition-colors">
-                      info@smartaisoft.com
+                    <a href="mailto:Malikmisbah@mtzproducts.com"
+                      class="inline-flex items-center gap-2 text-[#0086f6] font-bold text-lg hover:text-white transition-colors">
+                      Malikmisbah@mtzproducts.com
                       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -219,7 +219,7 @@
               </div>
 
               <div
-                class="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm transition-all duration-500 hover:border-[#f43f5e]/30"
+                class="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm transition-all duration-500 hover:border-[#0086f6]/30"
                 data-aos="fade-up" data-aos-delay="200">
                 <div class="w-10 h-10 rounded-xl bg-slate-100 flex items-center justify-center mb-6">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-slate-600" fill="none" viewBox="0 0 24 24"
@@ -235,19 +235,19 @@
                   <div>
                     <span
                       class="text-[10px] font-extrabold uppercase tracking-widest text-slate-400 block mb-1">Headquarters</span>
-                    <p class="text-slate-600 text-sm leading-relaxed">19-G, Phase 1, DHA,<br>Lahore, Pakistan</p>
+                    <p class="text-slate-600 text-sm leading-relaxed"> 2681 Winterfell St Corpus Christi,<br>TX 78415 USA</p>
                   </div>
                 </div>
               </div>
 
               <div class="md:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
                 <div class="flex items-center gap-4 p-6 bg-slate-50 rounded-xl border border-slate-100">
-                  <div class="flex-shrink-0 w-2 h-2 rounded-full bg-[#f43f5e] animate-pulse"></div>
+                  <div class="flex-shrink-0 w-2 h-2 rounded-full bg-[#0086f6] animate-pulse"></div>
                   <p class="text-xs font-bold text-slate-600 uppercase tracking-widest">Typical response time: <span
                       class="text-slate-950 font-black">24 Hours</span></p>
                 </div>
                 <div class="flex items-center gap-4 p-6 bg-slate-50 rounded-xl border border-slate-100">
-                  <div class="flex-shrink-0 w-2 h-2 rounded-full bg-[#f43f5e]"></div>
+                  <div class="flex-shrink-0 w-2 h-2 rounded-full bg-[#0086f6]"></div>
                   <p class="text-xs font-bold text-slate-600 uppercase tracking-widest">Policy updated: <span
                       class="text-slate-950 font-black">March 04, 2026</span></p>
                 </div>

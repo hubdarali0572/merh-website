@@ -30,9 +30,9 @@
 
     .site-footer-columns {
         display: grid;
-        grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.7fr) minmax(0, 1.1fr) minmax(0, 1fr);
+        grid-template-columns: 6fr 2fr 4fr;
         align-items: start;
-        gap: 3rem 2.5rem;
+        gap: 3rem 4rem;
         margin-bottom: 3rem;
     }
 
@@ -114,147 +114,134 @@
 
     <div class="site-footer-container">
 
-       <div class="site-footer-columns">
+        <div class="site-footer-columns">
 
-    {{-- Column 1: Logo + description + social --}}
-    <div class="site-footer-column">
-        <div class="site-footer-brand mb-4">
-            <a href="/" class="inline-block">
-                <img fetchpriority="high" src="{{ asset('assets/images/others/logo-header.png') }}"
-                    alt="SmartAI Soft Logo" class="h-20 sm:h-24 w-auto object-contain"
-                    width="180" height="60" loading="lazy" decoding="async" />
-            </a>
-        </div>
-        <p class="text-slate-600 font-medium mb-6 leading-relaxed">
-            Dedicated Offshore Developers for Startups & Digital Agencies in Malaysia, MEA, USA, and Canada.
-            Structured, Reliable, Long-Term engineering capacity.
-        </p>
+            {{-- Column 1: Logo + description + social --}}
+            <div class="site-footer-column">
+                <div class="site-footer-brand mb-4">
+                    <a href="/" class="inline-block">
+                        <img fetchpriority="high" src="{{ asset('assets/images/others/logo-header.png') }}"
+                            alt="MEHR logo" class="brand-logo h-[100px] sm:h-24 w-auto object-contain" width="540"
+                            height="540" loading="lazy" decoding="async" />
+                    </a>
+                </div>
 
-        <div class="flex flex-wrap gap-3">
-            <!-- LinkedIn -->
-            <a href="https://uk.linkedin.com/company/smartai-soft" aria-label="LinkedIn"
-                class="w-10 h-10 rounded-full bg-white border group border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#f43f5e] hover:border-[#f43f5e] transition-all duration-300 shadow-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                    class="transition-transform duration-300 ease-in-out group-hover:scale-110" width="18"
-                    height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                    <rect width="4" height="12" x="2" y="9" />
-                    <circle cx="4" cy="4" r="2" />
-                </svg>
-            </a>
+                <p class="text-slate-600 font-medium mb-6 leading-relaxed">
+                    Professional Web Design and Website Development for Businesses across the USA.
+                    Modern, responsive, and scalable websites designed to drive growth.
+                </p>
 
-            <!-- Upwork -->
-            <a href="https://www.upwork.com/agencies/1550198843122221056/" target="_blank" rel="noopener noreferrer" aria-label="Upwork"
-                class="w-10 h-10 rounded-full bg-white border group border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#f43f5e] hover:border-[#f43f5e] transition-all duration-300 shadow-sm">
-                <i aria-hidden="true"
-                    class="fa-brands fa-upwork text-[18px] transition-transform duration-300 ease-in-out group-hover:scale-110"></i>
-            </a>
 
-            <!-- Facebook -->
-            <a href="https://m.facebook.com/people/Smartai-Soft/61565559385042/" aria-label="Facebook"
-                class="w-10 h-10 rounded-full bg-white group border border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#f43f5e] hover:border-[#f43f5e] transition-all duration-300 shadow-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                    class="transition-transform duration-300 ease-in-out group-hover:scale-110" width="18"
-                    height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                </svg>
-            </a>
+                {{-- <div class="flex flex-wrap gap-3">
+                    <a href="https://uk.linkedin.com/company/smartai-soft" aria-label="LinkedIn"
+                        class="w-10 h-10 rounded-full bg-white border group border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#0086f6] hover:border-[#0086f6] transition-all duration-300 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            class="transition-transform duration-300 ease-in-out group-hover:scale-110" width="18"
+                            height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect width="4" height="12" x="2" y="9" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
 
-            <!-- Instagram -->
-            <a href="https://www.instagram.com/smartaisoft/" aria-label="Instagram"
-                class="w-10 h-10 rounded-full bg-white group border border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#f43f5e] hover:border-[#f43f5e] transition-all duration-300 shadow-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                    class="transition-transform duration-300 ease-in-out group-hover:scale-110" width="18"
-                    height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                </svg>
-            </a>
+                    <a href="https://www.upwork.com/agencies/1550198843122221056/" target="_blank"
+                        rel="noopener noreferrer" aria-label="Upwork"
+                        class="w-10 h-10 rounded-full bg-white border group border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#0086f6] hover:border-[#0086f6] transition-all duration-300 shadow-sm">
+                        <i aria-hidden="true"
+                            class="fa-brands fa-upwork text-[18px] transition-transform duration-300 ease-in-out group-hover:scale-110"></i>
+                    </a>
 
-            <!-- YouTube -->
-            <a href="https://www.youtube.com/@SmartAISoft" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
-                class="w-10 h-10 rounded-full bg-white group border border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#f43f5e] hover:border-[#f43f5e] transition-all duration-300 shadow-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                    class="transition-transform duration-300 ease-in-out group-hover:scale-110" width="18"
-                    height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path
-                        d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 69.44 69.44 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 69.44 69.44 0 0 1-15 0 2 2 0 0 1-2-2Z" />
-                    <path d="m10 15 5-3-5-3z" />
-                </svg>
-            </a>
-        </div>
-    </div>
+                    <a href="https://m.facebook.com/people/Smartai-Soft/61565559385042/" aria-label="Facebook"
+                        class="w-10 h-10 rounded-full bg-white group border border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#0086f6] hover:border-[#0086f6] transition-all duration-300 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            class="transition-transform duration-300 ease-in-out group-hover:scale-110" width="18"
+                            height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
 
-    {{-- Column 2: Navigation --}}
-    <div class="site-footer-column">
-        <h4 class="site-footer-heading">Navigation</h4>
-        <ul class="space-y-3">
-            <li><a href="{{ route('services') }}" class="text-slate-600 font-medium hover:text-[#f43f5e] footer-transition">Services</a></li>
-            <li><a href="{{ route('blogs') }}" class="text-slate-600 font-medium hover:text-[#f43f5e] footer-transition">Blogs</a></li>
-            <li><a href="{{ route('project') }}" class="text-slate-600 font-medium hover:text-[#f43f5e] footer-transition">Projects</a></li>
-            <li><a href="{{ route('about') }}" class="text-slate-600 font-medium hover:text-[#f43f5e] footer-transition">About Us</a></li>
-            <li><a href="{{ route('contact') }}" class="text-slate-600 font-medium hover:text-[#f43f5e] footer-transition">Contact Us</a></li>
-        </ul>
-    </div>
+                    <a href="https://www.instagram.com/smartaisoft/" aria-label="Instagram"
+                        class="w-10 h-10 rounded-full bg-white group border border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#0086f6] hover:border-[#0086f6] transition-all duration-300 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            class="transition-transform duration-300 ease-in-out group-hover:scale-110" width="18"
+                            height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                        </svg>
+                    </a>
 
-    {{-- Column 3: Contact Us --}}
-    <div class="site-footer-column">
-        <h4 class="site-footer-heading">Contact Us</h4>
-        <ul class="space-y-3 text-[14px]">
-            <li class="text-slate-600 font-medium">Phase 1, DHA, Lahore, Pakistan</li>
-            <li>
-                <a href="tel:+923704343002" class="text-slate-600 font-medium hover:text-[#f43f5e] footer-transition">+92 370 4343002</a>
-            </li>
-            <li>
-                <a href="mailto:info@smartaisoft.com" class="text-slate-600 font-medium hover:text-[#f43f5e] footer-transition">info@smartaisoft.com</a>
-            </li>
-            <li class="pt-2">
-                <a href="https://calendly.com/smartaisoft-info/30min"
-                    class="text-[#be123c] hover:underline font-bold text-[15px] footer-transition">
-                    Book a Discovery Call
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    {{-- Column 4: Certified (3 images) --}}
-    <div class="site-footer-column">
-        <h4 class="site-footer-heading flex md:justify-center lg:justify-center">Certified</h4>
-        <div class="site-footer-certifications">
-            <div class="site-footer-certification">
-                <img src="{{ asset('assets/images/others/pseb_logo-removebg-preview.png') }}"
-                    alt="PSEB"
-                    width="80" height="64" loading="lazy" decoding="async" />
+                    <a href="https://www.youtube.com/@SmartAISoft" target="_blank" rel="noopener noreferrer"
+                        aria-label="YouTube"
+                        class="w-10 h-10 rounded-full bg-white group border border-[#e2e8f0] flex items-center justify-center text-[#64748b] hover:text-[#0086f6] hover:border-[#0086f6] transition-all duration-300 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            class="transition-transform duration-300 ease-in-out group-hover:scale-110" width="18"
+                            height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 69.44 69.44 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 69.44 69.44 0 0 1-15 0 2 2 0 0 1-2-2Z" />
+                            <path d="m10 15 5-3-5-3z" />
+                        </svg>
+                    </a>
+                </div> --}}
             </div>
-            <div class="site-footer-certification">
-                <img src="{{ asset('assets/images/others/iso_logo-removebg-preview.png') }}"
-                    alt="ISO"
-                    width="80" height="64" loading="lazy" decoding="async" />
-            </div>
-            <div class="site-footer-certification">
-                <img src="{{ asset('assets/images/others/SECP_logo-removebg-preview.png') }}"
-                    alt="SECP"
-                    width="80" height="64" loading="lazy" decoding="async" />
-            </div>
-        </div>
-    </div>
 
-</div>
+            {{-- Column 2: Navigation --}}
+            <div class="site-footer-column">
+                <h4 class="site-footer-heading">Navigation</h4>
+                <ul class="space-y-3">
+                    <li><a href="{{ route('services') }}"
+                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">SERVICES</a></li>
+                    <li><a href="{{ route('blogs') }}"
+                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">BLOGS</a></li>
+                    <li><a href="{{ route('project') }}"
+                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">PROJECTS</a></li>
+                    <li><a href="{{ route('about') }}"
+                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">ABOUT US</a></li>
+                    {{-- <li><a href="{{ route('contact') }}"
+                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">CONTACT US</a>
+                    </li> --}}
+                </ul>
+            </div>
+
+            {{-- Column 3: Contact Us --}}
+            <div class="site-footer-column">
+                <h4 class="site-footer-heading">Contact Us</h4>
+                <ul class="space-y-3 text-[14px]">
+                    <li class="text-slate-600 font-medium">2681 Winterfell St Corpus Christi, TX 78415 USA</li>
+                    <li>
+                        <a href="tel:+18326775343"
+                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">+1 (832)
+                            677-5343</a>
+                    </li>
+                    <li>
+                        <a href="mailto:Malikmisbah@mtzproducts.com"
+                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">Malikmisbah@mtzproducts.com</a>
+                    </li>
+                    {{-- <li class="pt-2">
+                        <a href="https://calendly.com/smartaisoft-info/30min"
+                            class="text-[#007fcf] hover:underline font-bold text-[15px] footer-transition">
+                            Book a Discovery Call
+                        </a>
+                    </li> --}}
+                </ul>
+            </div>
+
+        </div>
         <div class="site-footer-bottom">
             <p class="text-sm text-slate-600">
                 &copy;
-                <script>document.write(new Date().getFullYear())</script> SmartAI Soft (Pvt) Ltd. All rights reserved.
+                <script>document.write(new Date().getFullYear())</script> MEHR Website Design and Software Services. All
+                rights reserved.
             </p>
             <div class="flex gap-6">
                 <a href="{{ route('privacy.policy') }}"
-                    class="text-sm text-slate-600 hover:text-[#f43f5e] footer-transition">Privacy Policy</a>
+                    class="text-sm text-slate-600 hover:text-[#0086f6] footer-transition">Privacy Policy</a>
                 <a href="{{ route('terms.of.service') }}"
-                    class="text-sm text-slate-600 hover:text-[#f43f5e] footer-transition">Terms of Service</a>
+                    class="text-sm text-slate-600 hover:text-[#0086f6] footer-transition">Terms of Service</a>
             </div>
         </div>
 
