@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block sensitive Laravel routes
+Disallow: /login
+Disallow: /register
+Disallow: /admin
+Disallow: /password/reset
+
+# Point Google to your sitemap
+Sitemap: https://smartaisoft.com/sitemap.xml
