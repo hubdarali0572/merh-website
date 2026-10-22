@@ -27,7 +27,7 @@
               experiences, streamline operations, and drive business growth.
             </p>
 
-            <div class="relative p-10 rounded-2xl bg-slate-950 text-white overflow-hidden shadow-2xl">
+            <div class="relative p-10 rounded-lg bg-slate-950 text-white overflow-hidden shadow-2xl">
               <img src="{{ asset('assets/images/others/logo-header.png') }}"
                 class="brand-logo absolute -right-1 bottom-5 w-64 opacity-20 pointer-events-none" alt="MEHR logo">
               <div class="relative z-10">
@@ -64,8 +64,8 @@
           </div>
 
           <div class="lg:col-span-5 lg:sticky lg:top-32" data-aos="fade-left">
-            <div class="bg-white rounded-2xl border border-slate-100 p-3 shadow-[0_30px_70px_-20px_rgba(0,0,0,0.08)]">
-              <div class="bg-slate-50/50 rounded-2xl overflow-hidden">
+            <div class="bg-white rounded-lg border border-slate-100 p-3 shadow-[0_30px_70px_-20px_rgba(0,0,0,0.08)]">
+              <div class="bg-slate-50/50 rounded-lg overflow-hidden">
                 <div class="p-8 pb-6 border-b border-white">
                   <div class="flex items-center gap-2 mb-2">
                     <span class="w-2 h-2 bg-[#0086f6] rounded-full animate-pulse"></span>

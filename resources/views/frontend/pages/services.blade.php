@@ -109,11 +109,11 @@
 
             <!-- Right Feature Cards -->
             <div class="lg:col-span-5">
-              <div class="rounded-2xl border border-slate-100 bg-white p-6 shadow-2xl shadow-black/5">
+              <div class="rounded-lg border border-slate-100 bg-white p-6 shadow-2xl shadow-black/5">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 
                   <!-- Website Design -->
-                  <div class="rounded-2xl bg-slate-50 p-5">
+                  <div class="rounded-xl bg-slate-50 p-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="h-6 w-6 text-[#0086f6] mb-3">
@@ -131,7 +131,7 @@
                   </div>
 
                   <!-- Web Development -->
-                  <div class="rounded-2xl bg-slate-50 p-5">
+                  <div class="rounded-xl bg-slate-50 p-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="h-6 w-6 text-[#0086f6] mb-3">

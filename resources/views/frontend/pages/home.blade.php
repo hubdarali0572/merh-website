@@ -12,7 +12,7 @@
 
     <div class="font-sans text-green text-slate-900 tialiased ab">
 
-        <section class="relative bg-white px-4 pt-24 md:pt-32 lg:pt-48 pb-20 md:pb-24 lg:pb-32 overflow-hidden"
+        <section class="relative bg-white px-4 pt-24 md:pt-32 lg:pt-44 pb-20 md:pb-24 lg:pb-32 overflow-hidden"
             style="background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);">
 
             <div class="top-0 right-0 absolute blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none"

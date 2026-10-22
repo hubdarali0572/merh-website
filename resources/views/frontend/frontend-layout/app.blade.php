@@ -334,6 +334,10 @@
             -webkit-text-fill-color: transparent !important;
         }
     </style>
+    <style>
+     .ab { font-family: 'Inter', system-ui, sans-serif; color: #475569; line-height: 1.65; background: #fff;
+      --navy: #002f7d; --blue: #0086f6; --sky: #007fcf; --ink: #0f172a; --line: #e2e8f0; --soft: #f8fafc; }
+</style>
     <link rel="icon" type="image/png" href="{{ asset('assets/images/others/logo-header.png') }}">
 </head>
 

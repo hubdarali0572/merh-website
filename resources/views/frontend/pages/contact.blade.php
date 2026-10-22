@@ -33,7 +33,7 @@
     .ct-btn-ghost:hover { border-color: var(--blue); color: var(--navy); }
     .ct-btn svg { width: 18px; height: 18px; }
 
-    .ct-quick { display: grid; gap: 12px; padding: 12px; background: #fff; border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 20px 40px -20px rgba(0, 47, 125, .18); }
+    .ct-quick { display: grid; gap: 12px; padding: 12px; background: #fff; border: 1px solid var(--line); border-radius: 5px; box-shadow: 0 20px 40px -20px rgba(0, 47, 125, .18); }
     .ct-item { display: flex; align-items: center; gap: 16px; padding: 16px; border-radius: 12px; color: inherit; border: 1px solid transparent; transition: background .2s, border-color .2s; }
     a.ct-item:hover { background: #eff6ff; border-color: #bfdbfe; }
     .ct-ico { width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px; background: #eff6ff; color: var(--sky); display: flex; align-items: center; justify-content: center; }
