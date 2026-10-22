@@ -64,6 +64,15 @@
     <!-- 4. CRITICAL INLINE CSS (Render blocking khatam karne ke liye) -->
     <style>
         /* style.css ka code maine yahan inline kar diya hai kyunki woh bahut chhota (2.4kb) hai */
+        :root {
+            --navy: #002f7d;
+            --blue: #0086f6;
+            --sky: #007fcf;
+            --ink: #0f172a;
+            --line: #e2e8f0;
+            --soft: #f8fafc;
+        }
+
         html {
             overflow-x: hidden;
             overflow-y: auto;
@@ -80,6 +89,7 @@
         body {
             overflow-x: hidden;
             scroll-behavior: smooth;
+            background: #fff;
         }
 
         /* Font Awesome Display Fix */
@@ -327,7 +337,7 @@
     <link rel="icon" type="image/png" href="{{ asset('assets/images/others/logo-header.png') }}">
 </head>
 
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-white text-slate-600">
     <canvas id="pointer-canvas"></canvas>
 
     @include('frontend.frontend-layout.header')

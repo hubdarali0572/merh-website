@@ -39,22 +39,23 @@ class StudentContactController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
+        $validated = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'company_name' => 'required|string|max:20',
+            'company_name' => 'required|string|max:255',
+            'message' => 'nullable|string|max:10000',
             'g-recaptcha-response' => ['required', new Recaptcha()],
         ]);
 
-        $studentContact = new StudentContact();
-        $studentContact->name = $request->name;
-        $studentContact->email = $request->email;
-        $studentContact->company_name = $request->company_name;
-        $studentContact->message = $request->message;
-        $studentContact->status = 'pending';
-        $studentContact->save();
+        StudentContact::create([
+            'name' => $validated['name'],
+            'email' => $validated['email'],
+            'company_name' => $validated['company_name'],
+            'message' => $validated['message'] ?? '',
+            'status' => 'pending',
+        ]);
 
-        return redirect()->back()->with('success', 'Your Contact Request Sent To AL MAKTOUM TOURISM Management successfully!');
+        return redirect()->back()->with('success', 'Your Contact Request Sent To MEHR Management successfully!');
     }
 
     /**

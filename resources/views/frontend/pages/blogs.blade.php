@@ -17,17 +17,14 @@
 
           <div class="lg:col-span-7" data-aos="fade-right">
             <h1 class="mb-8 font-black text-slate-900 text-4xl md:text-5xl leading-[0.9] tracking-tighter">
-              Professional Web <br>
-              <span class="text-[#0086f6] italic">Design & Development.</span><br>
-              <span class="text-slate-400">Built for Business Growth.</span>
+              Custom Web & Mobile <br>
+              <span class="text-[#0086f6] italic">App Development.</span>
             </h1>
 
-            <p class="text-slate-500 text-xl leading-relaxed max-w-xl mb-12 font-medium">
-              MEHR Website Design and Software Services helps businesses across the USA establish a
-              powerful online presence through professional website design, custom web development,
-              and responsive digital experiences. We combine creative thinking, modern technology,
-              and performance-focused development to build websites that strengthen your brand,
-              engage your audience, and support sustainable business growth.
+            <p class="text-slate-500 text-lg leading-relaxed max-w-xl mb-12 font-medium">
+              MEHR delivers custom websites, mobile apps, e-commerce platforms, and business software
+              for businesses across the USA, creating scalable digital solutions that enhance user
+              experiences, streamline operations, and drive business growth.
             </p>
 
             <div class="relative p-10 rounded-2xl bg-slate-950 text-white overflow-hidden shadow-2xl">
@@ -42,9 +39,9 @@
                 </div>
 
                 <p class="text-2xl md:text-3xl font-medium leading-tight mb-8">
-                  "A great website is more than a digital presence—it's a foundation for
-                  <span class="text-[#0086f6] font-bold">building trust, connecting with customers, and growing your
-                    business.</span>"
+                  " We build digital solutions that turn your ideas into
+                  <span class="text-[#0086f6] font-bold">better experiences, smarter operations, and lasting business
+                    growth.</span>"
                 </p>
 
                 <div class="flex items-center gap-4">
@@ -125,9 +122,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           @foreach($blogs as $item)
             <a href="{{ route('frontend.show', $item->slug) }}">
-              <article class="group flex flex-col h-full bg-white border border-slate-200/60 rounded-3xl overflow-hidden relative transition-all duration-500 ease-out 
-                                            hover:scale-[1.03] hover:-translate-y-2 hover:z-20 
-                                            hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.2)]"
+              <article
+                class="group flex flex-col h-full bg-white border border-slate-200/60 rounded-3xl overflow-hidden relative transition-all duration-500 ease-out 
+                                                    hover:scale-[1.03] hover:-translate-y-2 hover:z-20 
+                                                    hover:border-[#0086f6] hover:shadow-[0_30px_60px_-15px_rgba(0,134,246,0.2)]"
                 data-aos="fade-up" data-aos-delay="{{ $loop->index * 100 }}">
 
                 <div class="h-1.5 w-full bg-gradient-to-r from-[#0086f6] to-[#002f7d]"></div>
@@ -158,7 +156,7 @@
 
                   <div class="flex flex-wrap gap-2 mb-8 mt-auto relative z-10">
                     @php 
-                                                                                                                                  if (is_string($item->tags)) {
+                                                                                                                                                                          if (is_string($item->tags)) {
                         $tags = array_map(function ($t) {
                           return trim($t, ' []"');
                         }, explode(',', $item->tags));
@@ -193,7 +191,7 @@
     </section>
 
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-      <div id="capabilities" class="items-center gap-16 grid grid-cols-1 lg:grid-cols-2 py-5 lg:py-24" data-aos="fade-up">
+      <div id="capabilities" class="items-center gap-16 grid grid-cols-1 lg:grid-cols-2 py-5 lg:py-10" data-aos="fade-up">
         <div
           class="top-0 left-0 absolute bg-blue-400/40 blur-[120px] rounded-full w-[300px] lg:w-[500px] h-[400px] lg:h-[850px] pointer-events-none">
         </div>
@@ -216,33 +214,6 @@
             that give businesses access to specialized expertise, flexible development teams, and scalable solutions
             without geographical limitations.
           </p>
-
-          <div class="gap-6 grid grid-cols-2">
-            <div
-              class="group relative bg-slate-50 p-8 border border-slate-100 hover:border-[#0086f6] rounded-[1rem] overflow-hidden transition-all duration-500">
-              <div
-                class="-top-4 -right-4 absolute bg-[#0086f6]/5 rounded-full w-12 h-12 group-hover:scale-[3] transition-transform duration-700">
-              </div>
-              <h4 class="z-10 relative font-black text-slate-950 group-hover:text-[#0086f6] text-4xl transition-colors">
-                5+</h4>
-              <p class="z-10 relative mt-2 font-black text-[10px] text-slate-400 uppercase tracking-widest">
-                Engineering Hubs
-              </p>
-            </div>
-
-            <div
-              class="group relative bg-slate-50 p-8 border border-slate-100 hover:border-[#0086f6] rounded-[1rem] overflow-hidden transition-all duration-500">
-              <div
-                class="-top-4 -right-4 absolute bg-[#0086f6]/5 rounded-full w-12 h-12 group-hover:scale-[3] transition-transform duration-700">
-              </div>
-              <h4 class="z-10 relative font-black text-slate-950 group-hover:text-[#0086f6] text-4xl transition-colors">
-                93%
-              </h4>
-              <p class="z-10 relative mt-2 font-black text-[10px] text-slate-400 uppercase tracking-widest">
-                Client Retention
-              </p>
-            </div>
-          </div>
         </div>
 
         <div class="gap-6 grid grid-cols-1 sm:grid-cols-2">

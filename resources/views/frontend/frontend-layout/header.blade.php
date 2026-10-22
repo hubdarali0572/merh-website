@@ -85,17 +85,17 @@
                     class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('services') ? 'text-[#0086f6]' : 'text-slate-600' }}">
                     SERVICES
                 </a>
-                <a href="https://mtzproducts.com/" target="_blank" rel="noopener noreferrer"
-                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('project') ? 'text-[#0086f6]' : 'text-slate-600' }}">
-                    PROJECTS
+                <a href="{{ route('solutions') }}" target="_blank" rel="noopener noreferrer"
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('solutions') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                    SOLUTIONS
                 </a>
-                <a href="{{ route('about') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('about') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                <a href="{{ route('about-us') }}"
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('about-us') ? 'text-[#0086f6]' : 'text-slate-600' }}">
                     ABOUT US
                 </a>
 
-                {{-- <a href="{{ route('gallary') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('gallary') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                {{-- <a href="{{ route('gallery') }}"
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('gallery') ? 'text-[#0086f6]' : 'text-slate-600' }}">
                     Showcase
                 </a> --}}
                 <a href="{{ route('blogs') }}"
@@ -103,8 +103,8 @@
                      {{ request()->routeIs('blogs') || request()->routeIs('frontend.show') ? 'text-[#0086f6]' : 'text-slate-600' }}">
                     BLOGS
                 </a>
-                <a href="{{ route('contact') }}"
-                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('contact') ? 'text-[#0086f6]' : 'text-slate-600' }}">
+                <a href="{{ route('contact-us') }}"
+                    class="text-sm font-medium footer-transition hover:text-[#0086f6] {{ request()->routeIs('contact-us') ? 'text-[#0086f6]' : 'text-slate-600' }}">
                     CONTACT US
                 </a>
 
@@ -165,20 +165,20 @@
         class="hidden lg:hidden absolute top-full left-0 w-full bg-background border-b border-border shadow-lg">
         <div class="px-4 pt-2 pb-6 space-y-4 flex flex-col">
             <a href="{{ route('services') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">SERVICES</a>
+                class="block px-3 py-2 text-base font-medium text-foreground hover:text-[#0086f6] {{ request()->routeIs('services') ? 'text-[#0086f6]' : 'text-slate-600' }}">SERVICES</a>
 
-            <a href="https://mtzproducts.com/" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">PROJECTS</a>
-            {{-- <a href="{{ route('gallary') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">Showcase</a> --}}
-            <a href="{{ route('about') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">ABOUT US</a>
+            <a href="{{ route('solutions') }}" onclick="closeMobileMenu()"
+                class="block px-3 py-2 text-base font-medium text-foreground hover:text-[#0086f6] {{ request()->routeIs('solutions') ? 'text-[#0086f6]' : 'text-slate-600' }}">SOLUTIONS</a>
+            {{-- <a href="{{ route('gallery') }}" onclick="closeMobileMenu()"
+                class="block px-3 py-2 text-base font-medium text-foreground hover:text-[#0086f6] {{ request()->routeIs('gallery') ? 'text-[#0086f6]' : 'text-slate-600' }}">Showcase</a> --}}
+            <a href="{{ route('about-us') }}" onclick="closeMobileMenu()"
+                class="block px-3 py-2 text-base font-medium text-foreground hover:text-[#0086f6] {{ request()->routeIs('about-us') ? 'text-[#0086f6]' : 'text-slate-600' }}">ABOUT US</a>
 
             <a href="{{ route('blogs') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">BLOGS</a>
+                class="block px-3 py-2 text-base font-medium text-foreground hover:text-[#0086f6] {{ request()->routeIs('blogs') ? 'text-[#0086f6]' : 'text-slate-600' }}">BLOGS</a>
 
-            <a href="{{ route('contact') }}" onclick="closeMobileMenu()"
-                class="block px-3 py-2 text-base font-medium text-foreground">CONTACT US</a>
+            <a href="{{ route('contact-us') }}" onclick="closeMobileMenu()"
+                class="block px-3 py-2 text-base font-medium text-foreground hover:text-[#0086f6] {{ request()->routeIs('contact-us') ? 'text-[#0086f6]' : 'text-slate-600' }}">CONTACT US</a>
             {{-- <a href="https://calendly.com/app/routing/forms/user/me" target="_blank" class="px-5 py-2.5 rounded-full text-sm font-semibold
                     bg-foreground text-white hover:bg-[#020817]/90 nav-transition hover:-translate-y-0.5 hover:shadow-md inline-block
                     text-center"> Book a Call </a> --}}

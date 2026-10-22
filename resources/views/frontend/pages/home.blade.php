@@ -4,9 +4,16 @@
 @section('description', 'Dedicated offshore AI, web, and mobile developers for startups and agencies in Malaysia, MEA, USA, and Canada—structured, reliable, and long-term.')
 @section('content')
 
-    <div class="font-sans text-green text-slate-900 tialiased">
+<style>
+     .ab { font-family: 'Inter', system-ui, sans-serif; color: #475569; line-height: 1.65; background: #fff;
+      --navy: #002f7d; --blue: #0086f6; --sky: #007fcf; --ink: #0f172a; --line: #e2e8f0; --soft: #f8fafc; }
+</style>
 
-        <section class="relative bg-white px-4 pt-24 md:pt-32 lg:pt-48 pb-20 md:pb-24 lg:pb-32 overflow-hidden">
+
+    <div class="font-sans text-green text-slate-900 tialiased ab">
+
+        <section class="relative bg-white px-4 pt-24 md:pt-32 lg:pt-48 pb-20 md:pb-24 lg:pb-32 overflow-hidden"
+            style="background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);">
 
             <div class="top-0 right-0 absolute blur-[120px] rounded-full w-[300px] lg:w-[700px] h-[400px] lg:h-[750px] pointer-events-none"
                 style="background-color: rgba(0, 134, 246, 0.16);" data-aos="fade-down-left" data-aos-delay="400"
@@ -28,19 +35,20 @@
                     </div>
 
                     <h1
-                        class="mb-6 md:mb-8 font-extrabold text-[#0F172A] lg:text-[70px] text-3xl sm:text-4xl md:text-5xl leading-[1.1] md:leading-[1.2] lg:leading-[1.1] tracking-tight">
-                        Professional Web Design & Website Development
+                        class="mb-6 md:mb-8 font-extrabold text-[#0F172A] lg:text-6xl text-3xl sm:text-4xl md:text-5xl leading-[1.1] md:leading-[1.2] lg:leading-[1.1] tracking-tight">
+                        Custom Web & Mobile App Development Services
                         <span class="relative" style="color: #0086f6;">
-                            in USA
+                            in Texas, USA
                             <span class="-bottom-1 md:-bottom-2 left-0 absolute rounded-full w-full h-1.5 md:h-2"
                                 style="background-color: rgba(0, 134, 246, 0.5);"></span>
                         </span>
                     </h1>
-
                     <p
                         class="mb-8 md:mb-10 max-w-4xl font-medium text-slate-500 text-lg md:text-xl lg:text-2xl leading-relaxed">
-                        We create modern, high-performance websites tailored to businesses across the USA, combining
-                        professional design with seamless user experiences. Our website development solutions help you
+                        We create modern, high-performance websites and mobile apps tailored to businesses across the USA,
+                        combining
+                        professional design with seamless user experiences. Our website and Mobile App development solutions
+                        help you
                         strengthen your online presence, attract more customers, and grow your business.
                         <strong
                             style="font-weight: 700; color: #0F172A; text-decoration: underline; text-decoration-color: rgba(0, 134, 246, 0.3); text-decoration-thickness: 4px;">
@@ -49,7 +57,7 @@
                     </p>
 
                     <div class="flex sm:flex-row flex-col gap-8 md:gap-6">
-                        <a href="{{ route('contact') }}"
+                        <a href="{{ route('contact-us') }}"
                             class="bg-[#0F172A] hover:bg-slate-800 shadow-slate-200 shadow-xl px-8 py-4 rounded-full font-bold text-white text-center whitespace-nowrap transition-all hover:-translate-y-1">
                             Let's Explore If This Fits
                         </a>
@@ -206,7 +214,7 @@
 
         </section>
 
-        <section id="solution" class="relative px-3 lg:px-0 py-24 overflow-hidden text-white"
+        <section id="solution" class="relative px-3 lg:px-0 py-10 overflow-hidden text-white"
             style="background-color: #002f7d;">
             <div class="z-10 relative mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
                 <div class="mx-auto mb-16 max-w-3xl lg:text-center">
@@ -219,22 +227,18 @@
                     </p>
                 </div>
 
-                <div class="bg-black/10 backdrop-blur-xl p-3 md:p-5 border border-white/20 rounded-xl">
+                <div class="bg-black/10 backdrop-blur-xl p-3 md:p-5">
                     <div class="gap-12 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                         @php
                             $techs = [
-                                ['name' => 'HTML5', 'icon' => 'fa-brands fa-html5', 'type' => 'fa'],
-                                ['name' => 'CSS3', 'icon' => 'fa-brands fa-css3-alt', 'type' => 'fa'],
-                                ['name' => 'JavaScript', 'icon' => 'fa-brands fa-js', 'type' => 'fa'],
-                                ['name' => 'React.js', 'icon' => 'fa-brands fa-react', 'type' => 'fa'],
-                                ['name' => 'Vue.js', 'icon' => 'fa-brands fa-vuejs', 'type' => 'fa'],
-                                ['name' => 'PHP & Laravel', 'icon' => 'fa-brands fa-laravel', 'type' => 'fa'],
-                                ['name' => 'Node.js', 'icon' => 'fa-brands fa-node-js', 'type' => 'fa'],
                                 ['name' => 'WordPress', 'icon' => 'fa-brands fa-wordpress', 'type' => 'fa'],
-                                ['name' => 'Bootstrap', 'icon' => 'fa-brands fa-bootstrap', 'type' => 'fa'],
+                                ['name' => 'Laravel', 'icon' => 'fa-brands fa-laravel', 'type' => 'fa'],
+                                ['name' => 'Shopify', 'icon' => 'fa-brands fa-shopify', 'type' => 'fa'],
+                                ['name' => 'Zoho', 'icon' => 'fa-solid fa-cloud', 'type' => 'fa'],
+                                ['name' => 'React Native', 'icon' => 'fa-brands fa-react', 'type' => 'fa'],
+                                ['name' => 'Flutter', 'icon' => 'fa-solid fa-mobile-screen-button', 'type' => 'fa'],
+                                ['name' => 'MERN Stack', 'icon' => 'fa-brands fa-node-js', 'type' => 'fa'],
                                 ['name' => 'Python', 'icon' => 'fa-brands fa-python', 'type' => 'fa'],
-                                ['name' => 'MySQL', 'icon' => 'fa-solid fa-database', 'type' => 'fa'],
-                                ['name' => 'Responsive Design', 'icon' => 'fa-solid fa-mobile-screen-button', 'type' => 'fa'],
                             ];
                         @endphp
 
@@ -395,12 +399,26 @@
                             <form action="{{ route('studentContact.store') }}" method="POST" class="space-y-6">
                                 @csrf
 
+                                @if (session('success'))
+                                    <p role="status" class="rounded-lg bg-green-50 p-4 text-green-800">{{ session('success') }}</p>
+                                @endif
+                                @if ($errors->any())
+                                    <div role="alert" class="rounded-lg border border-red-200 bg-red-50 p-4 text-red-800">
+                                        <p>Please correct the following before submitting:</p>
+                                        <ul class="mt-2 list-inside list-disc">
+                                            @foreach ($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                @endif
+
                                 <div class="gap-6 grid grid-cols-1 md:grid-cols-2">
 
                                     <div data-aos="fade-up" data-aos-delay="100">
-                                        <label class="block mb-2 font-bold text-slate-700 text-sm">Full Name <span
+                                        <label for="home-contact-name" class="block mb-2 font-bold text-slate-700 text-sm">Full Name <span
                                                 style="color: #0086f6;">*</span></label>
-                                        <input type="text" name="name" placeholder="Jane Doe" required
+                                        <input id="home-contact-name" type="text" name="name" value="{{ old('name') }}" placeholder="Jane Doe" required
                                             class="bg-slate-50/50 px-5 py-4 border border-slate-200 rounded-xl outline-none w-full transition-all"
                                             style="border-color: #e2e8f0;"
                                             onfocus="this.style.borderColor='#0086f6';this.style.boxShadow='0 0 0 1px #0086f6'"
@@ -408,9 +426,9 @@
                                     </div>
 
                                     <div data-aos="fade-up" data-aos-delay="250">
-                                        <label class="block mb-2 font-bold text-slate-700 text-sm">Work Email <span
+                                        <label for="home-contact-email" class="block mb-2 font-bold text-slate-700 text-sm">Work Email <span
                                                 style="color: #0086f6;">*</span></label>
-                                        <input type="email" name="email" placeholder="jane@company.ca" required
+                                        <input id="home-contact-email" type="email" name="email" value="{{ old('email') }}" placeholder="jane@company.ca" required
                                             class="bg-slate-50/50 px-5 py-4 border border-slate-200 rounded-xl outline-none w-full transition-all"
                                             style="border-color: #e2e8f0;"
                                             onfocus="this.style.borderColor='#0086f6';this.style.boxShadow='0 0 0 1px #0086f6'"
@@ -420,9 +438,9 @@
                                 </div>
 
                                 <div data-aos="fade-up" data-aos-delay="350">
-                                    <label class="block mb-2 font-bold text-slate-700 text-sm">Company Name <span
+                                    <label for="home-contact-company" class="block mb-2 font-bold text-slate-700 text-sm">Company Name <span
                                             style="color: #0086f6;">*</span></label>
-                                    <input type="text" name="company_name" placeholder="Acme Tech Inc." required
+                                    <input id="home-contact-company" type="text" name="company_name" value="{{ old('company_name') }}" placeholder="Acme Tech Inc." required
                                         class="bg-slate-50/50 px-5 py-4 border border-slate-200 rounded-xl outline-none w-full transition-all"
                                         style="border-color: #e2e8f0;"
                                         onfocus="this.style.borderColor='#0086f6';this.style.boxShadow='0 0 0 1px #0086f6'"
@@ -430,13 +448,13 @@
                                 </div>
 
                                 <div data-aos="fade-up" data-aos-delay="450">
-                                    <label class="block mb-2 font-bold text-slate-700 text-sm">How can we help?</label>
-                                    <textarea rows="4" name="message"
+                                    <label for="home-contact-message" class="block mb-2 font-bold text-slate-700 text-sm">How can we help?</label>
+                                    <textarea id="home-contact-message" rows="4" name="message"
                                         placeholder="Tell us about your current engineering needs..."
                                         class="bg-slate-50/50 px-5 py-4 border border-slate-200 rounded-xl outline-none w-full transition-all resize-none"
                                         style="border-color: #e2e8f0;"
                                         onfocus="this.style.borderColor='#0086f6';this.style.boxShadow='0 0 0 1px #0086f6'"
-                                        onblur="this.style.borderColor='#e2e8f0';this.style.boxShadow='none'"></textarea>
+                                        onblur="this.style.borderColor='#e2e8f0';this.style.boxShadow='none'">{{ old('message') }}</textarea>
                                 </div>
 
                                 {{-- Recaptcha --}}

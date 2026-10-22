@@ -26,11 +26,11 @@ Route::get('/admin', function () {
 });
 
 Route::get('/', [FrontendController::class, 'home'])->name('home');
-Route::get('/about', [FrontendController::class, 'about'])->name('about');
+Route::get('/about-us', [FrontendController::class, 'about'])->name('about-us');
 Route::get('/services', [FrontendController::class, 'services'])->name('services');
-Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
-Route::get('/project', [FrontendController::class, 'project'])->name('project');
-Route::get('/gallary', [FrontendController::class, 'gallary'])->name('gallary');
+Route::get('/contact-us', [FrontendController::class, 'contact'])->name('contact-us');
+Route::get('/solutions', [FrontendController::class, 'project'])->name('solutions');
+Route::get('/gallery', [FrontendController::class, 'gallery'])->name('gallery');
 Route::get('/privacy-policy', [FrontendController::class, 'privacyPolicy'])->name('privacy.policy');
 Route::get('/terms-of-service', [FrontendController::class, 'termsOfService'])->name('terms.of.service');
 Route::get('/blogs', [FrontendController::class, 'blogs'])->name('blogs');

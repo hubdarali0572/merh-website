@@ -1,260 +1,236 @@
 @extends('Frontend.frontend-layout.app')
 
 @section('title', 'Contact MEHR Website Design and Software Services | Book a Discovery Call')
-@section('description', 'Get in touch with MEHR Website Design and Software Services to discuss your product roadmap, engineering capacity, or offshore development needs.')
+@section('description', 'Contact MEHR Website Design and Software Services in Texas, USA to discuss custom web development, mobile apps, e-commerce, and software solutions.')
 @section('content')
 
-  <div class="bg-white overflow-hidden text-slate-500" style="font-family: 'Inter', sans-serif;">
+  <style>
+    .ct { font-family: 'Inter', system-ui, sans-serif; color: #475569; line-height: 1.65; background: #fff;
+      --navy: #002f7d; --blue: #0086f6; --sky: #007fcf; --ink: #0f172a; --line: #e2e8f0; --soft: #f8fafc; }
+    .ct *, .ct *::before, .ct *::after { box-sizing: border-box; }
+    .ct h1, .ct h2, .ct h3, .ct p, .ct ul, .ct ol { margin: 0; padding: 0; }
+    .ct a { text-decoration: none; }
+    .ct-wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .ct-label { font-size: 14px; font-weight: 600; color: var(--sky); margin-bottom: 12px; }
+    .ct-h2 { font-size: clamp(26px, 3.6vw, 36px); line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; color: var(--ink); }
 
-    <section class="bg-[#f8fafc] py-20 lg:py-32 font-['Inter'] border-b border-slate-100 relative overflow-hidden">
+    /* Hero */
+    .ct-hero { padding: 150px 0 80px; background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%); }
+    .ct-hero-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 56px; align-items: center; }
+    .ct-pill { display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; margin-bottom: 20px; font-size: 14px; font-weight: 600;
+      color: var(--navy); background: #fff; border: 1px solid #bfdbfe; border-radius: 999px; }
+    .ct-pill i { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); display: block; }
+    .ct-hero h1 { font-size: clamp(34px, 5vw, 56px); line-height: 1.1; font-weight: 800; letter-spacing: -0.03em; color: var(--ink); }
+    .ct-hero h1 span { color: var(--navy); }
+    .ct-intro { margin-top: 22px; max-width: 540px; font-size: 18px; color: #475569; }
+    .ct-btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .ct-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 26px; font-size: 15px; font-weight: 600;
+      border-radius: 10px; border: 1px solid transparent; cursor: pointer; font-family: inherit; transition: background .2s, color .2s, border-color .2s; }
+    .ct-btn:focus-visible, .ct-input:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+    .ct-btn-primary { background: var(--navy); color: #fff; }
+    .ct-btn-primary:hover { background: var(--blue); }
+    .ct-btn-ghost { background: #fff; color: #334155; border-color: #cbd5e1; }
+    .ct-btn-ghost:hover { border-color: var(--blue); color: var(--navy); }
+    .ct-btn svg { width: 18px; height: 18px; }
 
-      <div
-        class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#0086f6]/5 via-transparent to-transparent pointer-events-none">
-      </div>
+    .ct-quick { display: grid; gap: 12px; padding: 12px; background: #fff; border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 20px 40px -20px rgba(0, 47, 125, .18); }
+    .ct-item { display: flex; align-items: center; gap: 16px; padding: 16px; border-radius: 12px; color: inherit; border: 1px solid transparent; transition: background .2s, border-color .2s; }
+    a.ct-item:hover { background: #eff6ff; border-color: #bfdbfe; }
+    .ct-ico { width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px; background: #eff6ff; color: var(--sky); display: flex; align-items: center; justify-content: center; }
+    .ct-ico svg { width: 20px; height: 20px; }
+    .ct-item small { display: block; font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: #94a3b8; }
+    .ct-item strong { display: block; margin-top: 2px; font-size: 15px; font-weight: 600; color: var(--ink); overflow-wrap: anywhere; }
 
-      <div class="mx-auto max-w-7xl px-6 lg:px-8 text-center relative z-10 py-20 lg:py-0">
+    /* Main */
+    .ct-main { padding: 80px 0 96px; }
+    .ct-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 64px; align-items: start; }
+    .ct-fit li { list-style: none; display: flex; gap: 14px; align-items: flex-start; padding: 18px 20px; margin-top: 12px; background: var(--soft); border: 1px solid #f1f5f9; border-radius: 14px; font-weight: 600; color: #1e293b; }
+    .ct-fit li:first-child { margin-top: 24px; }
+    .ct-check { width: 24px; height: 24px; flex-shrink: 0; margin-top: 1px; border-radius: 50%; background: var(--navy); color: #fff; display: flex; align-items: center; justify-content: center; }
+    .ct-check svg { width: 14px; height: 14px; }
+    .ct-steps { margin-top: 40px; }
+    .ct-steps ol { list-style: none; margin-top: 20px; counter-reset: s; }
+    .ct-steps li { counter-increment: s; position: relative; padding: 0 0 20px 48px; }
+    .ct-steps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 32px; height: 32px; border-radius: 50%; background: #eff6ff; color: var(--navy); font-weight: 700; font-size: 14px; display: flex; align-items: center; justify-content: center; }
+    .ct-steps strong { display: block; color: var(--ink); }
+    .ct-steps span { font-size: 15px; }
 
-        <span
-          class="inline-flex items-center rounded-full px-4 py-1 text-[11px] font-extrabold tracking-[0.2em] text-[#002f7d] bg-[#EBF5FF] border border-[#BFDBFE] uppercase mb-8"
-          data-aos="fade-up">
-          Connect with us
-        </span>
+    /* Form */
+    .ct-card { padding: 40px; background: #fff; border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 24px 48px -24px rgba(15, 23, 42, .18); }
+    .ct-card > p { margin-top: 8px; margin-bottom: 28px; }
+    .ct-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .ct-field { margin-bottom: 20px; min-width: 0; }
+    .ct-field label { display: block; margin-bottom: 8px; font-size: 14px; font-weight: 600; color: #334155; }
+    .ct-field label b { color: var(--blue); }
+    .ct-input { display: block; width: 100%; padding: 14px 16px; font: inherit; font-size: 16px; color: var(--ink); background: var(--soft); border: 1px solid var(--line); border-radius: 12px; transition: border-color .2s, box-shadow .2s, background .2s; }
+    .ct-input:focus { outline: none; background: #fff; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(0, 134, 246, .15); }
+    textarea.ct-input { resize: none; }
+    .ct-err { display: block; margin-top: 6px; font-size: 13px; color: #dc2626; }
+    .ct-ok { margin-bottom: 20px; padding: 14px 16px; border-radius: 12px; background: #ecfdf5; border: 1px solid #a7f3d0; color: #065f46; font-weight: 600; font-size: 15px; }
+    .ct-errors { margin-bottom: 20px; padding: 14px 16px; border-radius: 12px; background: #fef2f2; border: 1px solid #fecaca; color: #991b1b; font-size: 14px; }
+    .ct-errors ul { margin: 8px 0 0 20px; list-style: disc; }
+    .ct-recaptcha { margin-bottom: 20px; max-width: 100%; overflow-x: auto; }
+    .ct-submit { width: 100%; padding: 16px; font-size: 16px; }
+    .ct-note { margin-top: 14px; text-align: center; font-size: 13px; color: #94a3b8; }
 
-        <h2
-          class="text-[36px] md:text-5xl lg:text-[56px] font-[900] text-slate-900 tracking-tight leading-[1.1] mb-8 max-w-4xl mx-auto"
-          data-aos="fade-up" data-aos-delay="100">
-          Let's Build Your Next
-          <span class="block lg:inline bg-gradient-to-r from-[#0086f6] to-[#002f7d] bg-clip-text text-transparent">
-            Digital Success Story.
-          </span>
-        </h2>
+    @media (max-width: 960px) {
+      .ct-hero { padding: 130px 0 64px; }
+      .ct-hero-grid, .ct-grid { grid-template-columns: 1fr; gap: 40px; }
+      .ct-main { padding: 56px 0 72px; }
+    }
+    @media (max-width: 640px) {
+      .ct-wrap { padding: 0 16px; }
+      .ct-hero { padding: 112px 0 48px; }
+      .ct-intro { font-size: 16px; }
+      .ct-btns .ct-btn { width: 100%; }
+      .ct-card { padding: 24px 18px; border-radius: 16px; }
+      .ct-row { grid-template-columns: 1fr; gap: 0; }
+      .ct-item { padding: 12px; gap: 12px; }
+    }
+  </style>
 
-        <p class="text-base md:text-lg lg:text-[20px] text-white max-w-2xl mx-auto leading-relaxed font-medium opacity-90 mb-6"
-          data-aos="fade-up" data-aos-delay="200">
-          Have a project in mind? Connect with MEHR Website Design and Software Services to discuss
-          your goals and discover how professional website design, custom web development, and
-          tailored digital solutions can strengthen your online presence and help your business
-          grow across the USA.
-        </p>
+  <div class="ct">
 
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="https://mtzproducts.com/" target="_blank"
-            class="group relative inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white rounded-full font-bold hover:bg-[#002f7d] transition-all duration-300 shadow-xl shadow-slate-200">
-            Explore Our Projects
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-              class="group-hover:translate-x-1 transition-transform">
-              <path d="M5 12h14m-7-7 7 7-7 7" />
-            </svg>
-          </a>
+    {{-- HERO --}}
+    <section class="ct-hero">
+      <div class="ct-wrap ct-hero-grid">
+
+        <div>
+          <span class="ct-pill"><i></i>Connect with us</span>
+          <h1>Let’s discuss your <span>next digital project.</span></h1>
+          <p class="ct-intro">
+            Ready to bring your ideas to life? Contact MEHR Website Design and Software Services to
+            discuss your goals and explore custom web development, mobile apps, e-commerce, and
+            software solutions designed to move your business forward.
+          </p>
+          <div class="ct-btns">
+            <a class="ct-btn ct-btn-primary" href="#contact">
+              Send a message
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14m7-7-7 7-7-7"/></svg>
+            </a>
+            <a class="ct-btn ct-btn-ghost" href="https://mtzproducts.com/" target="_blank" rel="noopener">
+              Explore our solutions
+              <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+            </a>
+          </div>
         </div>
+
+        <div class="ct-quick">
+          <a class="ct-item" href="https://wa.me/18326775343" target="_blank" rel="noopener">
+            <span class="ct-ico"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 012-2h3.3a1 1 0 01.9.7l1.5 4.5a1 1 0 01-.5 1.2l-2.3 1.1a11 11 0 005.5 5.5l1.1-2.3a1 1 0 011.2-.5l4.5 1.5a1 1 0 01.7.9V19a2 2 0 01-2 2h-1C9.7 21 3 14.3 3 6V5z"/></svg></span>
+            <span><small>Call or WhatsApp</small><strong>+1 (832) 677-5343</strong></span>
+          </a>
+          <a class="ct-item" href="mailto:Malikmisbah@mtzproducts.com">
+            <span class="ct-ico"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l7.9 5.3a2 2 0 002.2 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></span>
+            <span><small>Email us</small><strong>Malikmisbah@mtzproducts.com</strong></span>
+          </a>
+          <div class="ct-item">
+            <span class="ct-ico"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M17.7 16.7l-4.3 4.2a2 2 0 01-2.8 0l-4.3-4.2a8 8 0 1111.4 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></span>
+            <span><small>Business address</small><strong>2681 Winterfell St, Corpus Christi, TX 78415, USA</strong></span>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <section id="contact" class="bg-white px-3 lg:px-0 py-24">
-      <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-        <div class="gap-16 grid grid-cols-1 lg:grid-cols-12">
+    {{-- MAIN --}}
+    <section class="ct-main" id="contact">
+      <div class="ct-wrap ct-grid">
 
-          <div class="flex flex-col justify-center lg:col-span-5" data-aos="fade-right" data-aos-duration="1200"
-            data-aos-easing="ease-out-cubic">
+        <div>
+          <p class="ct-label">Who we work with</p>
+          <h2 class="ct-h2">Who we work best with</h2>
 
-            <h2 class="mb-8 font-extrabold text-[#0F172A] md:text-[40px] text-3xl">
-              Who We Work Best With
-            </h2>
+          <ul class="ct-fit">
+            @foreach ([
+              'Small and medium-sized businesses building their online presence',
+              'Growing companies seeking custom website development',
+              'Startups and digital agencies needing reliable web solutions',
+            ] as $work)
+              <li>
+                <span class="ct-check"><svg fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg></span>
+                <span>{{ $work }}</span>
+              </li>
+            @endforeach
+          </ul>
 
-            <div class="space-y-4 mb-12">
-              @foreach([
-                  'Small and medium-sized businesses building their online presence',
-                  'Growing companies seeking custom website development',
-                  'Startups and digital agencies needing reliable web solutions'
-                ] as $work)
-
-                <div class="flex items-center gap-4 bg-slate-50 p-5 border border-slate-100 rounded-xl" data-aos="fade-up"
-                  data-aos-delay="{{ $loop->index * 400 }}" data-aos-duration="1000">
-
-                  <div
-                    class="flex flex-shrink-0 justify-center items-center bg-[#EBF5FF] rounded-full w-10 h-10 text-[#0086f6]">
-                    <svg class="fill-current w-5 h-5" viewBox="0 0 24 24">
-                      <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-                    </svg>
-                  </div>
-
-                  <span class="font-bold text-slate-800 text-lg">{{ $work }}</span>
-                </div>
-
-              @endforeach
-            </div>
-
-            <div class="relative mt-4" data-aos="fade-up" data-aos-delay="400">
-
-              <img src="{{ asset('assets/images/others/logo-header.png') }}"
-                class="top-1/2 left-1/2 -z-10 absolute opacity-[0.07] w-[450px] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-                alt="MEHR Website Design and Software Services logo">
-
-              <h4 class="flex items-center gap-3 mb-6 font-black text-[#0F172A] text-xs uppercase tracking-[0.2em]">
-                Get in Touch
-                <span class="bg-slate-200 w-12 h-[1px]"></span>
-              </h4>
-
-              <div class="gap-4 grid grid-cols-1">
-
-                <!-- Business Address -->
-                <div class="group flex items-start gap-4 p-4 border hover:border-[#0086f6] rounded-xl transition-colors"
-                  data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
-
-                  <div
-                    class="flex justify-center items-center bg-blue-50 group-hover:bg-[#0086f6] rounded-full w-10 h-10 group-hover:text-white transition-all shrink-0">
-                    <svg class="w-5 h-5 text-[#0086f6] group-hover:text-white" fill="none" stroke="currentColor"
-                      stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-
-                  <div>
-                    <p class="mb-0.5 font-bold text-slate-400 text-xs uppercase tracking-wider">
-                      Business Address
-                    </p>
-                    <p class="font-semibold text-slate-700 text-sm leading-relaxed">
-                      2681 Winterfell St Corpus Christi, TX 78415 USA
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Phone -->
-                <a data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000" href="https://wa.me/18326775343"
-                  class="group flex items-start gap-4 p-4 border hover:border-[#0086f6] rounded-xl transition-colors">
-
-                  <div
-                    class="flex justify-center items-center bg-blue-50 group-hover:bg-[#0086f6] rounded-full w-10 h-10 group-hover:text-white transition-all shrink-0">
-                    <svg class="w-5 h-5 text-[#0086f6] group-hover:text-white" fill="none" stroke="currentColor"
-                      stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                  </div>
-
-                  <div>
-                    <p class="mb-0.5 font-bold text-slate-400 text-xs uppercase tracking-wider">
-                      Call or WhatsApp
-                    </p>
-                    <p class="font-semibold text-slate-700 text-sm leading-relaxed">
-                      +1 (832) 677-5343
-                    </p>
-                  </div>
-                </a>
-
-                <!-- Email -->
-                <a data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000"
-                  href="mailto:Malikmisbah@mtzproducts.com"
-                  class="group flex items-start gap-4 p-4 border hover:border-[#0086f6] rounded-xl transition-colors">
-
-                  <div
-                    class="flex justify-center items-center bg-blue-50 group-hover:bg-[#0086f6] rounded-full w-10 h-10 group-hover:text-white transition-all shrink-0">
-                    <svg class="w-5 h-5 text-[#0086f6] group-hover:text-white" fill="none" stroke="currentColor"
-                      stroke-width="2" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-
-                  <div>
-                    <p class="mb-0.5 font-bold text-slate-400 text-xs uppercase tracking-wider">
-                      Email Us
-                    </p>
-                    <p class="font-semibold text-slate-700 text-sm leading-relaxed break-all">
-                      Malikmisbah@mtzproducts.com
-                    </p>
-                  </div>
-                </a>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="lg:col-span-7" data-aos="fade-left" data-aos-duration="1300" data-aos-delay="200"
-            data-aos-easing="ease-out-cubic">
-            <div class="bg-white shadow-slate-200 shadow-xl p-4 md:p-12 border border-slate-50 rounded-xl">
-
-             <h3 class="mb-2 font-extrabold text-[#0F172A] text-3xl">
-                                Let’s Build Your Digital Future
-                            </h3>
-
-                            <p class="mb-5 font-medium text-slate-500">
-                                Discover tailored web design and development solutions to strengthen your online presence
-                                and grow your business.
-                            </p>
-              <form action="{{ route('studentContact.store') }}" method="POST" class="space-y-6">
-                @csrf
-
-                <div class="gap-6 grid grid-cols-1 md:grid-cols-2">
-
-                  <div data-aos="fade-up" data-aos-delay="100">
-                    <label class="block mb-2 font-bold text-slate-700 text-sm">Full Name <span
-                        class="text-[#0086f6]">*</span></label>
-                    <input type="text" name="name" placeholder="Jane Doe" required
-                      class="bg-slate-50/50 px-5 py-4 border border-slate-200 focus:border-[#0086f6] rounded-xl outline-none focus:ring-[#0086f6] focus:ring-1 w-full transition-all">
-                  </div>
-
-                  <div data-aos="fade-up" data-aos-delay="250">
-                    <label class="block mb-2 font-bold text-slate-700 text-sm">Work Email <span
-                        class="text-[#0086f6]">*</span></label>
-                    <input type="email" name="email" placeholder="jane@company.ca" required
-                      class="bg-slate-50/50 px-5 py-4 border border-slate-200 focus:border-[#0086f6] rounded-xl outline-none focus:ring-[#0086f6] focus:ring-1 w-full transition-all">
-                  </div>
-
-                </div>
-
-                <div data-aos="fade-up" data-aos-delay="350">
-                  <label class="block mb-2 font-bold text-slate-700 text-sm">Company Name <span
-                      class="text-[#0086f6]">*</span></label>
-                  <input type="text" name="company_name" placeholder="Acme Tech Inc." required
-                    class="bg-slate-50/50 px-5 py-4 border border-slate-200 focus:border-[#0086f6] rounded-xl outline-none focus:ring-[#0086f6] focus:ring-1 w-full transition-all">
-                </div>
-
-                <div data-aos="fade-up" data-aos-delay="450">
-                  <label class="block mb-2 font-bold text-slate-700 text-sm">How can we help?</label>
-                  <textarea rows="4" name="message" placeholder="Tell us about your current engineering needs..."
-                    class="bg-slate-50/50 px-5 py-4 border border-slate-200 focus:border-[#0086f6] rounded-xl outline-none focus:ring-[#0086f6] focus:ring-1 w-full transition-all resize-none"></textarea>
-                </div>
-
-                {{-- Recaptcha --}}
-
-                <div class="row" data-aos="fade-up" data-aos-delay="550">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}"></div>
-
-                      @if ($errors->has('g-recaptcha-response'))
-                        <span class="text-[#0086f6] text-sm">
-                          {{ $errors->first('g-recaptcha-response') }}
-                        </span>
-                      @endif
-                    </div>
-                  </div>
-                </div>
-
-                <button type="submit" data-aos="fade-up" data-aos-delay="650"
-                  class="flex justify-center items-center gap-3 bg-[#002f7d] hover:bg-[#007fcf] shadow-lg shadow-blue-200 py-5 rounded-full w-full font-black text-md text-white lg:text-lg transition-all">
-                  Submit
-                </button>
-                <p class="font-bold text-[11px] text-slate-400 text-center uppercase tracking-widest">
-                  No commitment required. We respect your inbox.
-                </p>
-
-              </form>
-            </div>
+          <div class="ct-steps">
+            <h3 class="ct-h2" style="font-size:22px">What happens next</h3>
+            <ol>
+              <li><strong>Send us your details</strong><span>Tell us about your project and goals.</span></li>
+              <li><strong>We review your request</strong><span>Our team looks at what you need and gets back to you.</span></li>
+              <li><strong>Discovery call</strong><span>We talk through options and plan the right solution.</span></li>
+            </ol>
           </div>
         </div>
+
+        <div class="ct-card">
+          <h2 class="ct-h2">Let’s Build Your Digital Future</h2>
+          <p>
+            Discover tailored web design and development solutions to strengthen your online presence
+            and grow your business.
+          </p>
+          <form action="{{ route('studentContact.store') }}" method="POST">
+            @csrf
+
+            @if (session('success'))
+              <p role="status" class="ct-ok">{{ session('success') }}</p>
+            @endif
+            @if ($errors->any())
+              <div role="alert" class="ct-errors">
+                <p>Please correct the following before submitting:</p>
+                <ul>
+                  @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                  @endforeach
+                </ul>
+              </div>
+            @endif
+
+            <div class="ct-row">
+              <div class="ct-field">
+                <label for="ct-name">Full Name <b>*</b></label>
+                <input id="ct-name" class="ct-input" type="text" name="name" value="{{ old('name') }}" placeholder="Jane Doe" required>
+              </div>
+              <div class="ct-field">
+                <label for="ct-email">Work Email <b>*</b></label>
+                <input id="ct-email" class="ct-input" type="email" name="email" value="{{ old('email') }}" placeholder="jane@company.ca" required>
+              </div>
+            </div>
+
+            <div class="ct-field">
+              <label for="ct-company">Company Name <b>*</b></label>
+              <input id="ct-company" class="ct-input" type="text" name="company_name" value="{{ old('company_name') }}" placeholder="Acme Tech Inc." required>
+            </div>
+
+            <div class="ct-field">
+              <label for="ct-message">How can we help?</label>
+              <textarea id="ct-message" class="ct-input" rows="4" name="message" placeholder="Tell us about your current engineering needs...">{{ old('message') }}</textarea>
+            </div>
+
+            {{-- Recaptcha --}}
+            <div class="row ct-recaptcha">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div class="g-recaptcha" data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}"></div>
+
+                  @if ($errors->has('g-recaptcha-response'))
+                    <span class="text-[#0086f6] text-sm" style="color:#0086f6;font-size:14px">
+                      {{ $errors->first('g-recaptcha-response') }}
+                    </span>
+                  @endif
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="ct-btn ct-btn-primary ct-submit">Submit</button>
+            <p class="ct-note">No commitment required. We respect your inbox.</p>
+          </form>
+        </div>
+
       </div>
     </section>
 
   </div>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({ duration: 1000, once: true });
-  </script>
 
 @endsection

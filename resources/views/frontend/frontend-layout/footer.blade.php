@@ -197,11 +197,11 @@
                             class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">SERVICES</a></li>
                     <li><a href="{{ route('blogs') }}"
                             class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">BLOGS</a></li>
-                    <li><a href="{{ route('project') }}"
-                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">PROJECTS</a></li>
-                    <li><a href="{{ route('about') }}"
+                    <li><a href="{{ route('solutions') }}"
+                            class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">SOLUTIONS</a></li>
+                    <li><a href="{{ route('about-us') }}"
                             class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">ABOUT US</a></li>
-                    {{-- <li><a href="{{ route('contact') }}"
+                    {{-- <li><a href="{{ route('contact-us') }}"
                             class="text-slate-600 font-medium hover:text-[#0086f6] footer-transition">CONTACT US</a>
                     </li> --}}
                 </ul>
@@ -251,8 +251,7 @@
                 class="mr-3 px-3 py-1 bg-gray-800 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
                 Chat with us
             </span>
-
-            <a href="https://wa.me/923704343002" target="_blank" aria-label="Contact us on WhatsApp"
+            <a href="https://wa.me/18326775343" target="_blank" aria-label="Contact us on WhatsApp"
                 class="relative w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300">
 
                 <!-- Hidden from screen readers because it's purely decorative animation -->
